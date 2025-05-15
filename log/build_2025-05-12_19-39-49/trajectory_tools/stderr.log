@@ -1,0 +1,14 @@
+[01m[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ktrajectory_saver.hpp: No such file or directory
+    1 | #include [01;31m[K"trajectory_saver.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ktrajectory_reader.hpp: No such file or directory
+    1 | #include [01;31m[K"trajectory_reader.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/trajectory_reader_lib.dir/build.make:76: CMakeFiles/trajectory_reader_lib.dir/src/trajectory_reader.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/trajectory_saver_lib.dir/build.make:76: CMakeFiles/trajectory_saver_lib.dir/src/trajectory_saver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:598: CMakeFiles/trajectory_saver_lib.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:624: CMakeFiles/trajectory_reader_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,317 @@
+[0.000000] (-) TimerEvent: {}
+[0.000179] (trajectory_tools) JobQueued: {'identifier': 'trajectory_tools', 'dependencies': OrderedDict()}
+[0.000224] (trajectory_tools) JobStarted: {'identifier': 'trajectory_tools'}
+[0.015458] (trajectory_tools) JobProgress: {'identifier': 'trajectory_tools', 'progress': 'cmake'}
+[0.016680] (trajectory_tools) Command: {'cmd': ['/usr/bin/cmake', '/home/dd/trajectory_tools', '-DCMAKE_INSTALL_PREFIX=/home/dd/trajectory_tools/install/trajectory_tools'], 'cwd': '/home/dd/trajectory_tools/build/trajectory_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dd'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dd/trajectory_tools/install/trajectory_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dd'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4108'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dd/trajectory_tools/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dd-HP-Laptop-15-bs1xx:@/tmp/.ICE-unix/1592,unix/dd-HP-Laptop-15-bs1xx:/tmp/.ICE-unix/1592'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fb3c330b_0cc9_4b1f_a514_3629195cb844'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NV9U52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dd/trajectory_tools/install/trajectory_tools:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dd/trajectory_tools/build/trajectory_tools'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dd/trajectory_tools/install/trajectory_tools:/opt/ros/humble')]), 'shell': False}
+[0.099042] (-) TimerEvent: {}
+[0.113582] (trajectory_tools) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199141] (-) TimerEvent: {}
+[0.223518] (trajectory_tools) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.237466] (trajectory_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299371] (-) TimerEvent: {}
+[0.369168] (trajectory_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.385057] (trajectory_tools) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.385394] (trajectory_tools) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.385951] (trajectory_tools) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.390726] (trajectory_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399447] (-) TimerEvent: {}
+[0.499717] (-) TimerEvent: {}
+[0.537433] (trajectory_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.555095] (trajectory_tools) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.555642] (trajectory_tools) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.556781] (trajectory_tools) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.561775] (trajectory_tools) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.599931] (-) TimerEvent: {}
+[0.700577] (-) TimerEvent: {}
+[0.800874] (-) TimerEvent: {}
+[0.865359] (trajectory_tools) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.901038] (-) TimerEvent: {}
+[1.001408] (-) TimerEvent: {}
+[1.060478] (trajectory_tools) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.101554] (-) TimerEvent: {}
+[1.145843] (trajectory_tools) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.155076] (trajectory_tools) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.172130] (trajectory_tools) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.197554] (trajectory_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201657] (-) TimerEvent: {}
+[1.228939] (trajectory_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.302246] (-) TimerEvent: {}
+[1.313025] (trajectory_tools) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.317177] (trajectory_tools) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.402265] (-) TimerEvent: {}
+[1.478039] (trajectory_tools) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.502396] (-) TimerEvent: {}
+[1.536185] (trajectory_tools) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.602537] (-) TimerEvent: {}
+[1.616180] (trajectory_tools) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.633527] (trajectory_tools) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.703228] (-) TimerEvent: {}
+[1.767843] (trajectory_tools) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.769270] (trajectory_tools) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.803199] (-) TimerEvent: {}
+[1.899736] (trajectory_tools) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.901716] (trajectory_tools) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.903351] (-) TimerEvent: {}
+[2.003678] (-) TimerEvent: {}
+[2.014462] (trajectory_tools) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.079984] (trajectory_tools) StdoutLine: {'line': b'-- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[2.104035] (-) TimerEvent: {}
+[2.160952] (trajectory_tools) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.180889] (trajectory_tools) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.204095] (-) TimerEvent: {}
+[2.304395] (-) TimerEvent: {}
+[2.370824] (trajectory_tools) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.404541] (-) TimerEvent: {}
+[2.505089] (-) TimerEvent: {}
+[2.605639] (-) TimerEvent: {}
+[2.705953] (-) TimerEvent: {}
+[2.806274] (-) TimerEvent: {}
+[2.906938] (-) TimerEvent: {}
+[2.909246] (trajectory_tools) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.007075] (-) TimerEvent: {}
+[3.107368] (-) TimerEvent: {}
+[3.208008] (-) TimerEvent: {}
+[3.308995] (-) TimerEvent: {}
+[3.409283] (-) TimerEvent: {}
+[3.509598] (-) TimerEvent: {}
+[3.610093] (-) TimerEvent: {}
+[3.679737] (trajectory_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.710336] (-) TimerEvent: {}
+[3.810742] (-) TimerEvent: {}
+[3.911111] (-) TimerEvent: {}
+[3.996149] (trajectory_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.011262] (-) TimerEvent: {}
+[4.036973] (trajectory_tools) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[4.041836] (trajectory_tools) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.093870] (trajectory_tools) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[4.094355] (trajectory_tools) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.094574] (trajectory_tools) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.094769] (trajectory_tools) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.111360] (-) TimerEvent: {}
+[4.134561] (trajectory_tools) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.211477] (-) TimerEvent: {}
+[4.253593] (trajectory_tools) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.311784] (-) TimerEvent: {}
+[4.338209] (trajectory_tools) StdoutLine: {'line': b'-- Generating done\n'}
+[4.371270] (trajectory_tools) StdoutLine: {'line': b'-- Build files have been written to: /home/dd/trajectory_tools/build/trajectory_tools\n'}
+[4.395340] (trajectory_tools) CommandEnded: {'returncode': 0}
+[4.397033] (trajectory_tools) JobProgress: {'identifier': 'trajectory_tools', 'progress': 'build'}
+[4.398294] (trajectory_tools) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dd/trajectory_tools/build/trajectory_tools', '--', '-j8', '-l8'], 'cwd': '/home/dd/trajectory_tools/build/trajectory_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dd'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dd/trajectory_tools/install/trajectory_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dd'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4108'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dd/trajectory_tools/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dd-HP-Laptop-15-bs1xx:@/tmp/.ICE-unix/1592,unix/dd-HP-Laptop-15-bs1xx:/tmp/.ICE-unix/1592'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fb3c330b_0cc9_4b1f_a514_3629195cb844'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NV9U52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dd/trajectory_tools/install/trajectory_tools:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dd/trajectory_tools/build/trajectory_tools'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dd/trajectory_tools/install/trajectory_tools:/opt/ros/humble')]), 'shell': False}
+[4.411881] (-) TimerEvent: {}
+[4.477461] (trajectory_tools) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.497879] (trajectory_tools) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.511991] (-) TimerEvent: {}
+[4.514782] (trajectory_tools) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_trajectory_tools\n'}
+[4.612116] (-) TimerEvent: {}
+[4.712784] (-) TimerEvent: {}
+[4.814251] (-) TimerEvent: {}
+[4.914583] (-) TimerEvent: {}
+[5.015277] (-) TimerEvent: {}
+[5.099425] (trajectory_tools) StdoutLine: {'line': b'[  5%] Built target trajectory_tools__cpp\n'}
+[5.115453] (-) TimerEvent: {}
+[5.131943] (trajectory_tools) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.134609] (trajectory_tools) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.135008] (trajectory_tools) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.170959] (trajectory_tools) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/trajectory_tools__rosidl_generator_c.dir/rosidl_generator_c/trajectory_tools/srv/detail/save_trajectory__functions.c.o\x1b[0m\n'}
+[5.184209] (trajectory_tools) StdoutLine: {'line': b'running egg_info\n'}
+[5.185515] (trajectory_tools) StdoutLine: {'line': b'creating trajectory_tools.egg-info\n'}
+[5.185929] (trajectory_tools) StdoutLine: {'line': b'writing trajectory_tools.egg-info/PKG-INFO\n'}
+[5.186287] (trajectory_tools) StdoutLine: {'line': b'writing dependency_links to trajectory_tools.egg-info/dependency_links.txt\n'}
+[5.186573] (trajectory_tools) StdoutLine: {'line': b'writing top-level names to trajectory_tools.egg-info/top_level.txt\n'}
+[5.187086] (trajectory_tools) StdoutLine: {'line': b"writing manifest file 'trajectory_tools.egg-info/SOURCES.txt'\n"}
+[5.195442] (trajectory_tools) StdoutLine: {'line': b"reading manifest file 'trajectory_tools.egg-info/SOURCES.txt'\n"}
+[5.198412] (trajectory_tools) StdoutLine: {'line': b"writing manifest file 'trajectory_tools.egg-info/SOURCES.txt'\n"}
+[5.215521] (-) TimerEvent: {}
+[5.283485] (trajectory_tools) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_build_trajectory_tools_egg\n'}
+[5.315693] (-) TimerEvent: {}
+[5.330234] (trajectory_tools) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libtrajectory_tools__rosidl_generator_c.so\x1b[0m\n'}
+[5.413295] (trajectory_tools) StdoutLine: {'line': b'[ 20%] Built target trajectory_tools__rosidl_generator_c\n'}
+[5.415814] (-) TimerEvent: {}
+[5.440028] (trajectory_tools) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.441102] (trajectory_tools) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.442020] (trajectory_tools) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.516162] (-) TimerEvent: {}
+[5.617621] (-) TimerEvent: {}
+[5.718717] (-) TimerEvent: {}
+[5.820506] (-) TimerEvent: {}
+[5.919806] (trajectory_tools) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/trajectory_tools__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_tools/srv/save_trajectory__type_support.cpp.o\x1b[0m\n'}
+[5.921185] (-) TimerEvent: {}
+[6.013951] (trajectory_tools) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/trajectory_tools__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_tools/srv/detail/save_trajectory__type_support.cpp.o\x1b[0m\n'}
+[6.022918] (-) TimerEvent: {}
+[6.062399] (trajectory_tools) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/trajectory_tools__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_tools/srv/detail/dds_fastrtps/save_trajectory__type_support.cpp.o\x1b[0m\n'}
+[6.123099] (-) TimerEvent: {}
+[6.223973] (-) TimerEvent: {}
+[6.275724] (trajectory_tools) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/trajectory_tools__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_tools/srv/save_trajectory__type_support.cpp.o\x1b[0m\n'}
+[6.324098] (-) TimerEvent: {}
+[6.347194] (trajectory_tools) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/trajectory_tools__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_tools/srv/detail/save_trajectory__type_support_c.cpp.o\x1b[0m\n'}
+[6.354150] (trajectory_tools) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/trajectory_tools__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_tools/srv/detail/save_trajectory__type_support.c.o\x1b[0m\n'}
+[6.373370] (trajectory_tools) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libtrajectory_tools__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.425124] (-) TimerEvent: {}
+[6.480676] (trajectory_tools) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libtrajectory_tools__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.517412] (trajectory_tools) StdoutLine: {'line': b'[ 51%] Built target trajectory_tools__rosidl_typesupport_c\n'}
+[6.525686] (-) TimerEvent: {}
+[6.581059] (trajectory_tools) StdoutLine: {'line': b'[ 51%] Built target trajectory_tools__rosidl_typesupport_introspection_c\n'}
+[6.625835] (-) TimerEvent: {}
+[6.726402] (-) TimerEvent: {}
+[6.801471] (trajectory_tools) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libtrajectory_tools__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.826679] (-) TimerEvent: {}
+[6.901294] (trajectory_tools) StdoutLine: {'line': b'[ 54%] Built target trajectory_tools__rosidl_typesupport_cpp\n'}
+[6.926885] (-) TimerEvent: {}
+[6.959512] (trajectory_tools) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/trajectory_reader_node.dir/src/trajectory_reader.cpp.o\x1b[0m\n'}
+[6.960307] (trajectory_tools) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/trajectory_saver_node.dir/src/trajectory_saver.cpp.o\x1b[0m\n'}
+[7.027009] (-) TimerEvent: {}
+[7.127715] (-) TimerEvent: {}
+[7.187573] (trajectory_tools) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libtrajectory_tools__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.228371] (-) TimerEvent: {}
+[7.309396] (trajectory_tools) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libtrajectory_tools__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.328504] (-) TimerEvent: {}
+[7.372496] (trajectory_tools) StdoutLine: {'line': b'[ 65%] Built target trajectory_tools__rosidl_typesupport_introspection_cpp\n'}
+[7.381713] (trajectory_tools) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libtrajectory_tools__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.428885] (-) TimerEvent: {}
+[7.529857] (-) TimerEvent: {}
+[7.538197] (trajectory_tools) StdoutLine: {'line': b'[ 68%] Built target trajectory_tools__rosidl_typesupport_fastrtps_cpp\n'}
+[7.583501] (trajectory_tools) StdoutLine: {'line': b'[ 68%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c\n'}
+[7.622813] (trajectory_tools) StdoutLine: {'line': b'[ 68%] Built target trajectory_tools\n'}
+[7.629784] (-) TimerEvent: {}
+[7.665445] (trajectory_tools) StdoutLine: {'line': b'[ 71%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.729925] (-) TimerEvent: {}
+[7.830501] (-) TimerEvent: {}
+[7.932069] (-) TimerEvent: {}
+[8.032414] (-) TimerEvent: {}
+[8.132746] (-) TimerEvent: {}
+[8.233218] (-) TimerEvent: {}
+[8.333926] (-) TimerEvent: {}
+[8.434767] (-) TimerEvent: {}
+[8.535480] (-) TimerEvent: {}
+[8.548725] (trajectory_tools) StdoutLine: {'line': b'[ 71%] Built target trajectory_tools__py\n'}
+[8.594126] (trajectory_tools) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/trajectory_tools__rosidl_generator_py.dir/rosidl_generator_py/trajectory_tools/srv/_save_trajectory_s.c.o\x1b[0m\n'}
+[8.635479] (-) TimerEvent: {}
+[8.735881] (-) TimerEvent: {}
+[8.836299] (-) TimerEvent: {}
+[8.852653] (trajectory_tools) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/trajectory_tools/libtrajectory_tools__rosidl_generator_py.so\x1b[0m\n'}
+[8.936601] (-) TimerEvent: {}
+[8.943600] (trajectory_tools) StdoutLine: {'line': b'[ 77%] Built target trajectory_tools__rosidl_generator_py\n'}
+[8.992102] (trajectory_tools) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/trajectory_tools__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/trajectory_tools/_trajectory_tools_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.992543] (trajectory_tools) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/trajectory_tools__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/trajectory_tools/_trajectory_tools_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.010714] (trajectory_tools) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/trajectory_tools__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/trajectory_tools/_trajectory_tools_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.038212] (-) TimerEvent: {}
+[9.138996] (-) TimerEvent: {}
+[9.239864] (-) TimerEvent: {}
+[9.286741] (trajectory_tools) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/trajectory_tools/trajectory_tools_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.326094] (trajectory_tools) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/trajectory_tools/trajectory_tools_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.340511] (-) TimerEvent: {}
+[9.379905] (trajectory_tools) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/trajectory_tools/trajectory_tools_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.411824] (trajectory_tools) StdoutLine: {'line': b'[ 94%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.440639] (-) TimerEvent: {}
+[9.441029] (trajectory_tools) StdoutLine: {'line': b'[ 94%] Built target trajectory_tools__rosidl_typesupport_introspection_c__pyext\n'}
+[9.489060] (trajectory_tools) StdoutLine: {'line': b'[ 94%] Built target trajectory_tools__rosidl_typesupport_c__pyext\n'}
+[9.540757] (-) TimerEvent: {}
+[9.641370] (-) TimerEvent: {}
+[9.742202] (-) TimerEvent: {}
+[9.842488] (-) TimerEvent: {}
+[9.942814] (-) TimerEvent: {}
+[10.043185] (-) TimerEvent: {}
+[10.143513] (-) TimerEvent: {}
+[10.243818] (-) TimerEvent: {}
+[10.344527] (-) TimerEvent: {}
+[10.445620] (-) TimerEvent: {}
+[10.546069] (-) TimerEvent: {}
+[10.646466] (-) TimerEvent: {}
+[10.746925] (-) TimerEvent: {}
+[10.847297] (-) TimerEvent: {}
+[10.947682] (-) TimerEvent: {}
+[11.048836] (-) TimerEvent: {}
+[11.149981] (-) TimerEvent: {}
+[11.250456] (-) TimerEvent: {}
+[11.351349] (-) TimerEvent: {}
+[11.452610] (-) TimerEvent: {}
+[11.552976] (-) TimerEvent: {}
+[11.653374] (-) TimerEvent: {}
+[11.753845] (-) TimerEvent: {}
+[11.854255] (-) TimerEvent: {}
+[11.954655] (-) TimerEvent: {}
+[12.055414] (-) TimerEvent: {}
+[12.156752] (-) TimerEvent: {}
+[12.257097] (-) TimerEvent: {}
+[12.357508] (-) TimerEvent: {}
+[12.457975] (-) TimerEvent: {}
+[12.558445] (-) TimerEvent: {}
+[12.658995] (-) TimerEvent: {}
+[12.759650] (-) TimerEvent: {}
+[12.803051] (trajectory_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TrajectorySaver::saveServiceCallback(std::shared_ptr<trajectory_tools::srv::SaveTrajectory_Request_<std::allocator<void> > >, std::shared_ptr<trajectory_tools::srv::SaveTrajectory_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.803389] (trajectory_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:89:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct trajectory_tools::srv::SaveTrajectory_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct trajectory_tools::srv::SaveTrajectory_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kfile_path\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.803593] (trajectory_tools) StderrLine: {'line': b'   89 |         std::ofstream file(request->\x1b[01;31m\x1b[Kfile_path\x1b[m\x1b[K, std::ios::out);\n'}
+[12.803759] (trajectory_tools) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[12.803926] (trajectory_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:93:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct trajectory_tools::srv::SaveTrajectory_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct trajectory_tools::srv::SaveTrajectory_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kfile_path\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.804120] (trajectory_tools) StderrLine: {'line': b'   93 |       response->message = "Failed to open file: " + request->\x1b[01;31m\x1b[Kfile_path\x1b[m\x1b[K;\n'}
+[12.804291] (trajectory_tools) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[12.804461] (trajectory_tools) StderrLine: {'line': b'\n'}
+[12.805062] (trajectory_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:106:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct trajectory_tools::srv::SaveTrajectory_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct trajectory_tools::srv::SaveTrajectory_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kfile_path\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.805383] (trajectory_tools) StderrLine: {'line': b'  106 |       response->message = "Trajectory saved to: " + request->\x1b[01;31m\x1b[Kfile_path\x1b[m\x1b[K;\n'}
+[12.805597] (trajectory_tools) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[12.805794] (trajectory_tools) StderrLine: {'line': b'\n'}
+[12.859688] (-) TimerEvent: {}
+[12.960069] (-) TimerEvent: {}
+[13.060448] (-) TimerEvent: {}
+[13.161170] (-) TimerEvent: {}
+[13.261946] (-) TimerEvent: {}
+[13.362333] (-) TimerEvent: {}
+[13.463263] (-) TimerEvent: {}
+[13.564646] (-) TimerEvent: {}
+[13.665033] (-) TimerEvent: {}
+[13.765420] (-) TimerEvent: {}
+[13.865787] (-) TimerEvent: {}
+[13.966441] (-) TimerEvent: {}
+[14.066854] (-) TimerEvent: {}
+[14.167639] (-) TimerEvent: {}
+[14.268945] (-) TimerEvent: {}
+[14.369326] (-) TimerEvent: {}
+[14.469726] (-) TimerEvent: {}
+[14.570157] (-) TimerEvent: {}
+[14.670902] (-) TimerEvent: {}
+[14.771276] (-) TimerEvent: {}
+[14.871923] (-) TimerEvent: {}
+[14.972839] (-) TimerEvent: {}
+[15.073206] (-) TimerEvent: {}
+[15.173540] (-) TimerEvent: {}
+[15.274132] (-) TimerEvent: {}
+[15.375068] (-) TimerEvent: {}
+[15.475406] (-) TimerEvent: {}
+[15.575886] (-) TimerEvent: {}
+[15.676764] (-) TimerEvent: {}
+[15.777093] (-) TimerEvent: {}
+[15.877477] (-) TimerEvent: {}
+[15.978166] (-) TimerEvent: {}
+[16.078951] (-) TimerEvent: {}
+[16.179384] (-) TimerEvent: {}
+[16.279865] (-) TimerEvent: {}
+[16.380505] (-) TimerEvent: {}
+[16.480827] (-) TimerEvent: {}
+[16.581171] (-) TimerEvent: {}
+[16.681545] (-) TimerEvent: {}
+[16.781915] (-) TimerEvent: {}
+[16.882291] (-) TimerEvent: {}
+[16.982698] (-) TimerEvent: {}
+[17.084526] (-) TimerEvent: {}
+[17.121384] (trajectory_tools) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable trajectory_reader_node\x1b[0m\n'}
+[17.184662] (-) TimerEvent: {}
+[17.285176] (-) TimerEvent: {}
+[17.386406] (-) TimerEvent: {}
+[17.487796] (-) TimerEvent: {}
+[17.588114] (-) TimerEvent: {}
+[17.647074] (trajectory_tools) StdoutLine: {'line': b'[ 97%] Built target trajectory_reader_node\n'}
+[17.688412] (-) TimerEvent: {}
+[17.789118] (-) TimerEvent: {}
+[17.889460] (-) TimerEvent: {}
+[17.989754] (-) TimerEvent: {}
+[18.090165] (-) TimerEvent: {}
+[18.191203] (-) TimerEvent: {}
+[18.291601] (-) TimerEvent: {}
+[18.392413] (-) TimerEvent: {}
+[18.476527] (trajectory_tools) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/trajectory_saver_node.dir/build.make:76: CMakeFiles/trajectory_saver_node.dir/src/trajectory_saver.cpp.o] Error 1\n'}
+[18.476866] (trajectory_tools) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/trajectory_saver_node.dir/all] Error 2\n'}
+[18.477060] (trajectory_tools) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[18.480046] (trajectory_tools) CommandEnded: {'returncode': 2}
+[18.492724] (-) TimerEvent: {}
+[18.498404] (trajectory_tools) JobEnded: {'identifier': 'trajectory_tools', 'rc': 2}
+[18.509076] (-) EventReactorShutdown: {}

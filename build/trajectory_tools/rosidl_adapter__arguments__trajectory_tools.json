@@ -1,0 +1,6 @@
+{
+  "package_name": "trajectory_tools",
+  "non_idl_tuples": [
+    "/home/dd/trajectory_tools:srv/SaveTrajectory.srv"
+  ]
+}

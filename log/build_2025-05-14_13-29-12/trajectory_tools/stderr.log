@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/trajectory_saver_node.dir/src/main_saver.cpp.o: in function `void __gnu_cxx::new_allocator<TrajectorySaver>::construct<TrajectorySaver>(TrajectorySaver*)':
+main_saver.cpp:(.text._ZN9__gnu_cxx13new_allocatorI15TrajectorySaverE9constructIS1_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI15TrajectorySaverE9constructIS1_JEEEvPT_DpOT0_]+0x31): undefined reference to `TrajectorySaver::TrajectorySaver()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/trajectory_saver_node.dir/build.make:224: trajectory_saver_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:627: CMakeFiles/trajectory_saver_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

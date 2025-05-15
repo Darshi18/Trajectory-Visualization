@@ -1,0 +1,4 @@
+Invoking command in '/home/dd/trajectory_tools/build/trajectory_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dd/trajectory_tools -DCMAKE_INSTALL_PREFIX=/home/dd/trajectory_tools/install/trajectory_tools
+Invoked command in '/home/dd/trajectory_tools/build/trajectory_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dd/trajectory_tools -DCMAKE_INSTALL_PREFIX=/home/dd/trajectory_tools/install/trajectory_tools
+Invoking command in '/home/dd/trajectory_tools/build/trajectory_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dd/trajectory_tools/build/trajectory_tools -- -j8 -l8
+Invoked command in '/home/dd/trajectory_tools/build/trajectory_tools' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dd/trajectory_tools/build/trajectory_tools -- -j8 -l8

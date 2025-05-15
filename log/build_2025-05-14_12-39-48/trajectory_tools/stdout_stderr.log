@@ -1,0 +1,45 @@
+[  2%] Built target trajectory_tools__cpp
+[ 10%] Built target trajectory_tools__rosidl_generator_c
+[ 17%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c
+[ 25%] Built target trajectory_tools__rosidl_typesupport_introspection_c
+[ 33%] Built target trajectory_tools__rosidl_typesupport_c
+[ 41%] Built target trajectory_tools__rosidl_typesupport_cpp
+[ 48%] Built target trajectory_tools__rosidl_typesupport_introspection_cpp
+[ 56%] Built target trajectory_tools__rosidl_typesupport_fastrtps_cpp
+[ 58%] [32mBuilding CXX object CMakeFiles/trajectory_reader_lib.dir/src/trajectory_reader.cpp.o[0m
+[ 58%] Built target trajectory_tools
+[ 61%] Built target trajectory_tools__py
+[35m[1mConsolidate compiler generated dependencies of target trajectory_saver_lib[0m
+[ 64%] Built target ament_cmake_python_copy_trajectory_tools
+[ 64%] [32mBuilding CXX object CMakeFiles/trajectory_saver_lib.dir/src/trajectory_saver.cpp.o[0m
+[ 69%] Built target trajectory_tools__rosidl_generator_py
+[ 74%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c__pyext
+[ 79%] Built target trajectory_tools__rosidl_typesupport_c__pyext
+[ 84%] Built target trajectory_tools__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing trajectory_tools.egg-info/PKG-INFO
+writing dependency_links to trajectory_tools.egg-info/dependency_links.txt
+writing top-level names to trajectory_tools.egg-info/top_level.txt
+reading manifest file 'trajectory_tools.egg-info/SOURCES.txt'
+writing manifest file 'trajectory_tools.egg-info/SOURCES.txt'
+[ 84%] Built target ament_cmake_python_build_trajectory_tools_egg
+[01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryReader::loadTrajectoryFromCSV(const string&)[m[K’:
+[01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:56:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   56 |                 [01;31m[Ktf2[m[K::Quaternion q;
+      |                 [01;31m[K^~~[m[K
+[01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:57:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope
+   57 |                 [01;31m[Kq[m[K.setRPY(0, 0, std::stod(theta_str));
+      |                 [01;31m[K^[m[K
+[01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:58:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   58 |                 pose.pose.orientation = [01;31m[Ktf2[m[K::toMsg(q);
+      |                                         [01;31m[K^~~[m[K
+[01m[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:[m[K In member function ‘[01m[Kvoid TrajectorySaver::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:53:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   53 |         double theta = [01;31m[Ktf2[m[K::getYaw(msg->pose.pose.orientation);
+      |                        [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/trajectory_reader_lib.dir/build.make:76: CMakeFiles/trajectory_reader_lib.dir/src/trajectory_reader.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:653: CMakeFiles/trajectory_reader_lib.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/trajectory_saver_lib.dir/build.make:76: CMakeFiles/trajectory_saver_lib.dir/src/trajectory_saver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:599: CMakeFiles/trajectory_saver_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

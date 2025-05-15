@@ -1,0 +1,159 @@
+[0.020s] Invoking command in '/home/dd/trajectory_tools/build/trajectory_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dd/trajectory_tools/build/trajectory_tools -- -j8 -l8
+[0.114s] [  2%] Built target trajectory_tools__cpp
+[0.116s] [ 11%] Built target trajectory_tools__rosidl_generator_c
+[0.139s] [ 11%] Built target ament_cmake_python_copy_trajectory_tools
+[0.177s] [ 20%] Built target trajectory_tools__rosidl_typesupport_c
+[0.178s] [ 37%] Built target trajectory_tools__rosidl_typesupport_introspection_cpp
+[0.178s] [ 37%] Built target trajectory_tools__rosidl_typesupport_fastrtps_cpp
+[0.179s] [ 45%] Built target trajectory_tools__rosidl_typesupport_cpp
+[0.183s] [ 54%] Built target trajectory_tools__rosidl_typesupport_introspection_c
+[0.187s] [ 62%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c
+[0.206s] [35m[1mConsolidate compiler generated dependencies of target trajectory_saver_node[0m
+[0.230s] [ 62%] Built target trajectory_tools
+[0.242s] [ 68%] Built target trajectory_reader_node
+[0.244s] [ 71%] [32mBuilding CXX object CMakeFiles/trajectory_saver_node.dir/src/trajectory_saver.cpp.o[0m
+[0.270s] [ 74%] Built target trajectory_tools__py
+[0.309s] [ 80%] Built target trajectory_tools__rosidl_generator_py
+[0.359s] [ 85%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c__pyext
+[0.359s] [ 91%] Built target trajectory_tools__rosidl_typesupport_c__pyext
+[0.362s] [ 97%] Built target trajectory_tools__rosidl_typesupport_introspection_c__pyext
+[0.705s] running egg_info
+[0.706s] writing trajectory_tools.egg-info/PKG-INFO
+[0.706s] writing dependency_links to trajectory_tools.egg-info/dependency_links.txt
+[0.706s] writing top-level names to trajectory_tools.egg-info/top_level.txt
+[0.710s] reading manifest file 'trajectory_tools.egg-info/SOURCES.txt'
+[0.711s] writing manifest file 'trajectory_tools.egg-info/SOURCES.txt'
+[0.768s] [ 97%] Built target ament_cmake_python_build_trajectory_tools_egg
+[18.679s] [100%] [32m[1mLinking CXX executable trajectory_saver_node[0m
+[19.748s] [100%] Built target trajectory_saver_node
+[19.767s] Invoked command in '/home/dd/trajectory_tools/build/trajectory_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dd/trajectory_tools/build/trajectory_tools -- -j8 -l8
+[19.782s] Invoking command in '/home/dd/trajectory_tools/build/trajectory_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dd/trajectory_tools/build/trajectory_tools
+[19.797s] -- Install configuration: ""
+[19.797s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/ament_index/resource_index/rosidl_interfaces/trajectory_tools
+[19.797s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools
+[19.798s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/msg
+[19.798s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/msg/rosidl_generator_c__visibility_control.h
+[19.798s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv
+[19.798s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/save_trajectory.h
+[19.798s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail
+[19.798s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__type_support.h
+[19.799s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__struct.h
+[19.799s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__functions.c
+[19.799s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__functions.h
+[19.799s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/environment/library_path.sh
+[19.800s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/environment/library_path.dsv
+[19.800s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/lib/libtrajectory_tools__rosidl_generator_c.so
+[19.800s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools
+[19.800s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/msg
+[19.800s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.801s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv
+[19.801s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail
+[19.801s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__rosidl_typesupport_fastrtps_c.h
+[19.801s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/lib/libtrajectory_tools__rosidl_typesupport_fastrtps_c.so
+[19.802s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools
+[19.802s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/msg
+[19.802s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/msg/rosidl_generator_cpp__visibility_control.hpp
+[19.802s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv
+[19.803s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/save_trajectory.hpp
+[19.803s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail
+[19.803s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__type_support.hpp
+[19.803s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__traits.hpp
+[19.803s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__builder.hpp
+[19.803s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__struct.hpp
+[19.803s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools
+[19.804s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/msg
+[19.804s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.804s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv
+[19.804s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail
+[19.804s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/dds_fastrtps
+[19.804s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[19.804s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/lib/libtrajectory_tools__rosidl_typesupport_fastrtps_cpp.so
+[19.805s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools
+[19.805s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/msg
+[19.805s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.805s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv
+[19.805s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail
+[19.805s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__rosidl_typesupport_introspection_c.h
+[19.805s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__type_support.c
+[19.805s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/lib/libtrajectory_tools__rosidl_typesupport_introspection_c.so
+[19.805s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/lib/libtrajectory_tools__rosidl_typesupport_c.so
+[19.805s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools
+[19.806s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv
+[19.806s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail
+[19.806s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__type_support.cpp
+[19.806s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[19.806s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/lib/libtrajectory_tools__rosidl_typesupport_introspection_cpp.so
+[19.806s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/lib/libtrajectory_tools__rosidl_typesupport_cpp.so
+[19.806s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/environment/pythonpath.sh
+[19.807s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/environment/pythonpath.dsv
+[19.807s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools-0.0.1-py3.10.egg-info
+[19.807s] -- Installing: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools-0.0.1-py3.10.egg-info/SOURCES.txt
+[19.807s] -- Installing: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools-0.0.1-py3.10.egg-info/dependency_links.txt
+[19.807s] -- Installing: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools-0.0.1-py3.10.egg-info/PKG-INFO
+[19.808s] -- Installing: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools-0.0.1-py3.10.egg-info/top_level.txt
+[19.808s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools
+[19.808s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/libtrajectory_tools__rosidl_generator_py.so
+[19.808s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/trajectory_tools_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.808s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/trajectory_tools_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.808s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/_trajectory_tools_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.808s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/__init__.py
+[19.809s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/srv
+[19.809s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/srv/_save_trajectory_s.c
+[19.809s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/srv/__init__.py
+[19.809s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/srv/_save_trajectory.py
+[19.809s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/trajectory_tools_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.809s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/_trajectory_tools_s.ep.rosidl_typesupport_introspection_c.c
+[19.809s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/_trajectory_tools_s.ep.rosidl_typesupport_c.c
+[19.869s] Listing '/home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools'...
+[19.869s] Listing '/home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/srv'...
+[19.876s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/trajectory_tools_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.876s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/trajectory_tools_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.877s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/trajectory_tools_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.877s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/lib/libtrajectory_tools__rosidl_generator_py.so
+[19.878s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/srv/SaveTrajectory.idl
+[19.878s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/srv/SaveTrajectory.srv
+[19.878s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/srv/SaveTrajectory_Request.msg
+[19.879s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/srv/SaveTrajectory_Response.msg
+[19.879s] -- Installing: /home/dd/trajectory_tools/install/trajectory_tools/lib/trajectory_tools/trajectory_saver_node
+[19.887s] -- Set runtime path of "/home/dd/trajectory_tools/install/trajectory_tools/lib/trajectory_tools/trajectory_saver_node" to ""
+[19.888s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/lib/trajectory_tools/trajectory_reader_node
+[19.888s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/ament_index/resource_index/package_run_dependencies/trajectory_tools
+[19.889s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/ament_index/resource_index/parent_prefix_path/trajectory_tools
+[19.889s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/environment/ament_prefix_path.sh
+[19.889s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/environment/ament_prefix_path.dsv
+[19.890s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/environment/path.sh
+[19.890s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/environment/path.dsv
+[19.890s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/local_setup.bash
+[19.890s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/local_setup.sh
+[19.891s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/local_setup.zsh
+[19.891s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/local_setup.dsv
+[19.891s] -- Installing: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/package.dsv
+[19.891s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/ament_index/resource_index/packages/trajectory_tools
+[19.891s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/export_trajectory_tools__rosidl_generator_cExport.cmake
+[19.892s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/export_trajectory_tools__rosidl_generator_cExport-noconfig.cmake
+[19.892s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/export_trajectory_tools__rosidl_typesupport_fastrtps_cExport.cmake
+[19.892s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/export_trajectory_tools__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[19.892s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/export_trajectory_tools__rosidl_generator_cppExport.cmake
+[19.893s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/export_trajectory_tools__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.893s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/export_trajectory_tools__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[19.893s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/trajectory_tools__rosidl_typesupport_introspection_cExport.cmake
+[19.893s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/trajectory_tools__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.894s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/trajectory_tools__rosidl_typesupport_cExport.cmake
+[19.894s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/trajectory_tools__rosidl_typesupport_cExport-noconfig.cmake
+[19.894s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/trajectory_tools__rosidl_typesupport_introspection_cppExport.cmake
+[19.894s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/trajectory_tools__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.894s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/trajectory_tools__rosidl_typesupport_cppExport.cmake
+[19.895s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/trajectory_tools__rosidl_typesupport_cppExport-noconfig.cmake
+[19.895s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/export_trajectory_tools__rosidl_generator_pyExport.cmake
+[19.895s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/export_trajectory_tools__rosidl_generator_pyExport-noconfig.cmake
+[19.895s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/rosidl_cmake-extras.cmake
+[19.895s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.896s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.896s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/ament_cmake_export_libraries-extras.cmake
+[19.896s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/ament_cmake_export_targets-extras.cmake
+[19.896s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.896s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.897s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/trajectory_toolsConfig.cmake
+[19.897s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/trajectory_toolsConfig-version.cmake
+[19.897s] -- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/package.xml
+[19.899s] Invoked command in '/home/dd/trajectory_tools/build/trajectory_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dd/trajectory_tools/build/trajectory_tools

@@ -1,0 +1,98 @@
+[0.086s] Invoking command in '/home/dd/trajectory_tools/build/trajectory_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dd/trajectory_tools/build/trajectory_tools -- -j8 -l8
+[1.481s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.013s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[2.329s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.395s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.463s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.575s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.651s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.872s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.903s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.250s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.550s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.652s] -- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.750s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[3.791s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.057s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[4.092s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.105s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.116s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.803s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.574s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.794s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.872s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.938s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.938s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.938s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.214s] -- Configuring done
+[6.994s] -- Generating done
+[7.072s] -- Build files have been written to: /home/dd/trajectory_tools/build/trajectory_tools
+[7.179s] [  2%] Built target trajectory_tools__cpp
+[7.214s] [35m[1mConsolidate compiler generated dependencies of target trajectory_reader_lib[0m
+[7.222s] [35m[1mConsolidate compiler generated dependencies of target trajectory_tools__rosidl_generator_c[0m
+[7.234s] [35m[1mConsolidate compiler generated dependencies of target trajectory_tools__rosidl_typesupport_cpp[0m
+[7.291s] [35m[1mConsolidate compiler generated dependencies of target trajectory_tools__rosidl_typesupport_fastrtps_cpp[0m
+[7.317s] [35m[1mConsolidate compiler generated dependencies of target trajectory_tools__rosidl_typesupport_introspection_cpp[0m
+[7.452s] [ 10%] Built target trajectory_tools__rosidl_generator_c
+[7.500s] [35m[1mConsolidate compiler generated dependencies of target trajectory_tools__rosidl_typesupport_c[0m
+[7.500s] [35m[1mConsolidate compiler generated dependencies of target trajectory_tools__rosidl_typesupport_introspection_c[0m
+[7.509s] [ 10%] Built target ament_cmake_python_copy_trajectory_tools
+[7.525s] [35m[1mConsolidate compiler generated dependencies of target trajectory_tools__rosidl_typesupport_fastrtps_c[0m
+[7.545s] [ 17%] Built target trajectory_tools__rosidl_typesupport_c
+[7.548s] [ 25%] Built target trajectory_tools__rosidl_typesupport_introspection_c
+[7.630s] [ 33%] Built target trajectory_tools__rosidl_typesupport_cpp
+[7.632s] [ 41%] Built target trajectory_tools__rosidl_typesupport_introspection_cpp
+[7.697s] [ 56%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c
+[7.698s] [ 56%] Built target trajectory_tools__rosidl_typesupport_fastrtps_cpp
+[7.720s] [35m[1mConsolidate compiler generated dependencies of target trajectory_saver_lib[0m
+[7.751s] [ 56%] Built target trajectory_tools
+[7.792s] [ 58%] Built target trajectory_tools__py
+[7.844s] [35m[1mConsolidate compiler generated dependencies of target trajectory_tools__rosidl_generator_py[0m
+[8.141s] running egg_info
+[8.145s] writing trajectory_tools.egg-info/PKG-INFO
+[8.146s] writing dependency_links to trajectory_tools.egg-info/dependency_links.txt
+[8.147s] writing top-level names to trajectory_tools.egg-info/top_level.txt
+[8.154s] [ 64%] Built target trajectory_tools__rosidl_generator_py
+[8.217s] reading manifest file 'trajectory_tools.egg-info/SOURCES.txt'
+[8.225s] [35m[1mConsolidate compiler generated dependencies of target trajectory_tools__rosidl_typesupport_fastrtps_c__pyext[0m
+[8.231s] writing manifest file 'trajectory_tools.egg-info/SOURCES.txt'
+[8.236s] [35m[1mConsolidate compiler generated dependencies of target trajectory_tools__rosidl_typesupport_introspection_c__pyext[0m
+[8.242s] [35m[1mConsolidate compiler generated dependencies of target trajectory_tools__rosidl_typesupport_c__pyext[0m
+[8.272s] [ 69%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c__pyext
+[8.277s] [ 79%] Built target trajectory_tools__rosidl_typesupport_c__pyext
+[8.277s] [ 79%] Built target trajectory_tools__rosidl_typesupport_introspection_c__pyext
+[8.294s] [ 79%] Built target ament_cmake_python_build_trajectory_tools_egg
+[8.501s] [ 84%] Built target trajectory_reader_lib
+[8.507s] [ 87%] [32mBuilding CXX object CMakeFiles/trajectory_saver_lib.dir/src/trajectory_saver.cpp.o[0m
+[8.838s] [35m[1mConsolidate compiler generated dependencies of target trajectory_reader_node[0m
+[8.873s] [ 92%] Built target trajectory_reader_node
+[24.247s] [ 94%] [32m[1mLinking CXX shared library libtrajectory_saver_lib.so[0m
+[26.265s] [ 94%] Built target trajectory_saver_lib
+[26.309s] [35m[1mConsolidate compiler generated dependencies of target trajectory_saver_node[0m
+[26.358s] [ 97%] [32mBuilding CXX object CMakeFiles/trajectory_saver_node.dir/src/main_saver.cpp.o[0m
+[29.585s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[29.586s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[29.586s]                  from [01m[K/usr/include/c++/11/memory:64[m[K,
+[29.586s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[29.586s]                  from [01m[K/home/dd/trajectory_tools/src/main_saver.cpp:12[m[K:
+[29.586s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = TrajectorySaver; _Args = {rclcpp::NodeOptions}; _Tp = TrajectorySaver][m[K’:
+[29.586s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = TrajectorySaver; _Args = {rclcpp::NodeOptions}; _Tp = TrajectorySaver; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<TrajectorySaver>][m[K’
+[29.586s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {rclcpp::NodeOptions}; _Tp = TrajectorySaver; _Alloc = std::allocator<TrajectorySaver>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[29.586s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = TrajectorySaver; _Alloc = std::allocator<TrajectorySaver>; _Args = {rclcpp::NodeOptions}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[29.586s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<TrajectorySaver>; _Args = {rclcpp::NodeOptions}; _Tp = TrajectorySaver; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[29.586s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<TrajectorySaver>; _Args = {rclcpp::NodeOptions}; _Tp = TrajectorySaver][m[K’
+[29.586s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = TrajectorySaver; _Alloc = std::allocator<TrajectorySaver>; _Args = {rclcpp::NodeOptions}][m[K’
+[29.586s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = TrajectorySaver; _Args = {rclcpp::NodeOptions}][m[K’
+[29.586s] [01m[K/home/dd/trajectory_tools/src/main_saver.cpp:19:49:[m[K   required from here
+[29.586s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTrajectorySaver::TrajectorySaver(rclcpp::NodeOptions)[m[K’
+[29.587s]   162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[29.587s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.587s] In file included from [01m[K/home/dd/trajectory_tools/src/main_saver.cpp:13[m[K:
+[29.587s] [01m[K/home/dd/trajectory_tools/include/trajectory_tools/trajectory_saver.hpp:16:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KTrajectorySaver::TrajectorySaver()[m[K’
+[29.587s]    16 |     [01;36m[KTrajectorySaver[m[K();
+[29.587s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[29.598s] [01m[K/home/dd/trajectory_tools/include/trajectory_tools/trajectory_saver.hpp:16:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[29.692s] gmake[2]: *** [CMakeFiles/trajectory_saver_node.dir/build.make:76: CMakeFiles/trajectory_saver_node.dir/src/main_saver.cpp.o] Error 1
+[29.692s] gmake[1]: *** [CMakeFiles/Makefile2:627: CMakeFiles/trajectory_saver_node.dir/all] Error 2
+[29.692s] gmake: *** [Makefile:146: all] Error 2
+[29.695s] Invoked command in '/home/dd/trajectory_tools/build/trajectory_tools' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dd/trajectory_tools/build/trajectory_tools -- -j8 -l8

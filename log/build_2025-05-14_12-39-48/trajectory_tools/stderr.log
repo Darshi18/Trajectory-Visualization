@@ -1,0 +1,20 @@
+[01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryReader::loadTrajectoryFromCSV(const string&)[m[K’:
+[01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:56:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   56 |                 [01;31m[Ktf2[m[K::Quaternion q;
+      |                 [01;31m[K^~~[m[K
+[01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:57:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope
+   57 |                 [01;31m[Kq[m[K.setRPY(0, 0, std::stod(theta_str));
+      |                 [01;31m[K^[m[K
+[01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:58:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   58 |                 pose.pose.orientation = [01;31m[Ktf2[m[K::toMsg(q);
+      |                                         [01;31m[K^~~[m[K
+[01m[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:[m[K In member function ‘[01m[Kvoid TrajectorySaver::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:53:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   53 |         double theta = [01;31m[Ktf2[m[K::getYaw(msg->pose.pose.orientation);
+      |                        [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/trajectory_reader_lib.dir/build.make:76: CMakeFiles/trajectory_reader_lib.dir/src/trajectory_reader.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:653: CMakeFiles/trajectory_reader_lib.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/trajectory_saver_lib.dir/build.make:76: CMakeFiles/trajectory_saver_lib.dir/src/trajectory_saver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:599: CMakeFiles/trajectory_saver_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,113 @@
+#include "rclcpp/rclcpp.hpp"
+#include "geometry_msgs/msg/pose_stamped.hpp"
+#include "visualization_msgs/msg/marker_array.hpp"
+#include <fstream>
+#include <vector>
+#include <sstream>
+
+class TrajectoryReader : public rclcpp::Node
+{
+public:
+    TrajectoryReader() : Node("trajectory_reader")
+    {
+        marker_pub_ = this->create_publisher<visualization_msgs::msg::MarkerArray>("saved_trajectory_markers", 10);
+
+        // Load trajectory from CSV file
+       //loadTrajectoryFromCSV("/tmp/trajectory.csv");
+        loadTrajectoryFromCSV("/home/dd/trajectory_tools/data/trajectory.csv");
+
+
+        if (trajectory_.empty()) {
+            RCLCPP_WARN(this->get_logger(), "No trajectory data loaded from CSV file.");
+        } else {
+            RCLCPP_INFO(this->get_logger(), "Loaded %zu trajectory points.", trajectory_.size());
+        }
+
+        // Publish markers periodically, not only once
+        timer_ = this->create_wall_timer(std::chrono::milliseconds(500),
+                                         std::bind(&TrajectoryReader::publishMarkers, this));
+    }
+
+private:
+    void loadTrajectoryFromCSV(const std::string &filename)
+    {
+        std::ifstream file(filename);
+        std::string line;
+
+        if (!file.is_open()) {
+            RCLCPP_ERROR(this->get_logger(), "Failed to open file: %s", filename.c_str());
+            return;
+        }
+
+        while (std::getline(file, line))
+        {
+            std::istringstream ss(line);
+            std::string x_str, y_str, z_str;
+
+            // Handling CSV parsing gracefully (comma-separated)
+            if (!std::getline(ss, x_str, ',') || !std::getline(ss, y_str, ',') || !std::getline(ss, z_str, ',')) {
+                RCLCPP_WARN(this->get_logger(), "Malformed line: %s", line.c_str());
+                continue; // Skip invalid lines
+            }
+
+            geometry_msgs::msg::PoseStamped pose;
+            try {
+                pose.pose.position.x = std::stod(x_str);
+                pose.pose.position.y = std::stod(y_str);
+                pose.pose.position.z = std::stod(z_str);
+            } catch (const std::invalid_argument &e) {
+                RCLCPP_ERROR(this->get_logger(), "Error parsing values from line: %s", line.c_str());
+                continue;
+            }
+
+            trajectory_.push_back(pose);
+        }
+    }
+
+    void publishMarkers()
+    {
+        visualization_msgs::msg::MarkerArray marker_array;
+        visualization_msgs::msg::Marker marker;
+        marker.header.frame_id = "odom";  // Change to "map" if needed
+        marker.header.stamp = this->now();
+        marker.ns = "trajectory";
+        marker.id = 0;
+        marker.type = visualization_msgs::msg::Marker::LINE_STRIP;
+        marker.action = visualization_msgs::msg::Marker::ADD;
+        marker.scale.x = 0.02;
+        marker.color.a = 1.0;
+        marker.color.r = 1.0;
+        marker.color.g = 0.0;
+        marker.color.b = 0.0;
+
+        marker.points.clear();
+        for (const auto &pose : trajectory_)
+        {
+            geometry_msgs::msg::Point p;
+            p.x = pose.pose.position.x;
+            p.y = pose.pose.position.y;
+            p.z = pose.pose.position.z;
+            marker.points.push_back(p);
+        }
+
+        marker_array.markers.push_back(marker);
+        if (!trajectory_.empty()) {
+            marker_pub_->publish(marker_array);
+            RCLCPP_INFO(this->get_logger(), "Published %zu trajectory points.", marker.points.size());
+        } else {
+            RCLCPP_WARN(this->get_logger(), "No trajectory points to publish.");
+        }
+    }
+
+    rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::SharedPtr marker_pub_;
+    std::vector<geometry_msgs::msg::PoseStamped> trajectory_;
+    rclcpp::TimerBase::SharedPtr timer_;
+};
+
+int main(int argc, char **argv)
+{
+    rclcpp::init(argc, argv);
+    rclcpp::spin(std::make_shared<TrajectoryReader>());
+    rclcpp::shutdown();
+    return 0;   
+}  

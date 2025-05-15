@@ -1,0 +1,15 @@
+[01m[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:[m[K In member function ‘[01m[Kvoid TrajectorySaver::saveServiceCallback(std::shared_ptr<trajectory_tools::srv::SaveTrajectory_Request_<std::allocator<void> > >, std::shared_ptr<trajectory_tools::srv::SaveTrajectory_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:89:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct trajectory_tools::srv::SaveTrajectory_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct trajectory_tools::srv::SaveTrajectory_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kfile_path[m[K’
+   89 |         std::ofstream file(request->[01;31m[Kfile_path[m[K, std::ios::out);
+      |                                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:93:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct trajectory_tools::srv::SaveTrajectory_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct trajectory_tools::srv::SaveTrajectory_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kfile_path[m[K’
+   93 |       response->message = "Failed to open file: " + request->[01;31m[Kfile_path[m[K;
+      |                                                              [01;31m[K^~~~~~~~~[m[K
+
+[01m[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:106:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct trajectory_tools::srv::SaveTrajectory_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct trajectory_tools::srv::SaveTrajectory_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kfile_path[m[K’
+  106 |       response->message = "Trajectory saved to: " + request->[01;31m[Kfile_path[m[K;
+      |                                                              [01;31m[K^~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/trajectory_saver_node.dir/build.make:76: CMakeFiles/trajectory_saver_node.dir/src/trajectory_saver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/trajectory_saver_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

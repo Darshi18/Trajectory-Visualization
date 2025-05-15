@@ -1,0 +1,47 @@
+[0.302s] Invoking command in '/home/dd/trajectory_tools/build/trajectory_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dd/trajectory_tools/build/trajectory_tools -- -j8 -l8
+[0.927s] [  2%] Built target trajectory_tools__cpp
+[0.929s] [ 10%] Built target trajectory_tools__rosidl_generator_c
+[1.000s] [ 17%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c
+[1.028s] [ 25%] Built target trajectory_tools__rosidl_typesupport_introspection_c
+[1.031s] [ 33%] Built target trajectory_tools__rosidl_typesupport_c
+[1.046s] [ 41%] Built target trajectory_tools__rosidl_typesupport_cpp
+[1.085s] [ 48%] Built target trajectory_tools__rosidl_typesupport_introspection_cpp
+[1.087s] [ 56%] Built target trajectory_tools__rosidl_typesupport_fastrtps_cpp
+[1.105s] [ 58%] [32mBuilding CXX object CMakeFiles/trajectory_reader_lib.dir/src/trajectory_reader.cpp.o[0m
+[1.153s] [ 58%] Built target trajectory_tools
+[1.259s] [ 61%] Built target trajectory_tools__py
+[1.275s] [35m[1mConsolidate compiler generated dependencies of target trajectory_saver_lib[0m
+[1.345s] [ 64%] Built target ament_cmake_python_copy_trajectory_tools
+[1.345s] [ 64%] [32mBuilding CXX object CMakeFiles/trajectory_saver_lib.dir/src/trajectory_saver.cpp.o[0m
+[1.412s] [ 69%] Built target trajectory_tools__rosidl_generator_py
+[1.546s] [ 74%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c__pyext
+[1.547s] [ 79%] Built target trajectory_tools__rosidl_typesupport_c__pyext
+[1.548s] [ 84%] Built target trajectory_tools__rosidl_typesupport_introspection_c__pyext
+[2.224s] running egg_info
+[2.225s] writing trajectory_tools.egg-info/PKG-INFO
+[2.225s] writing dependency_links to trajectory_tools.egg-info/dependency_links.txt
+[2.226s] writing top-level names to trajectory_tools.egg-info/top_level.txt
+[2.299s] reading manifest file 'trajectory_tools.egg-info/SOURCES.txt'
+[2.314s] writing manifest file 'trajectory_tools.egg-info/SOURCES.txt'
+[2.379s] [ 84%] Built target ament_cmake_python_build_trajectory_tools_egg
+[11.599s] [01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryReader::loadTrajectoryFromCSV(const string&)[m[K’:
+[11.600s] [01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:56:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[11.600s]    56 |                 [01;31m[Ktf2[m[K::Quaternion q;
+[11.600s]       |                 [01;31m[K^~~[m[K
+[11.662s] [01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:57:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope
+[11.663s]    57 |                 [01;31m[Kq[m[K.setRPY(0, 0, std::stod(theta_str));
+[11.663s]       |                 [01;31m[K^[m[K
+[11.663s] [01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:58:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[11.664s]    58 |                 pose.pose.orientation = [01;31m[Ktf2[m[K::toMsg(q);
+[11.664s]       |                                         [01;31m[K^~~[m[K
+[12.019s] [01m[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:[m[K In member function ‘[01m[Kvoid TrajectorySaver::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[12.019s] [01m[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:53:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[12.020s]    53 |         double theta = [01;31m[Ktf2[m[K::getYaw(msg->pose.pose.orientation);
+[12.020s]       |                        [01;31m[K^~~[m[K
+[14.699s] gmake[2]: *** [CMakeFiles/trajectory_reader_lib.dir/build.make:76: CMakeFiles/trajectory_reader_lib.dir/src/trajectory_reader.cpp.o] Error 1
+[14.701s] gmake[1]: *** [CMakeFiles/Makefile2:653: CMakeFiles/trajectory_reader_lib.dir/all] Error 2
+[14.701s] gmake[1]: *** Waiting for unfinished jobs....
+[19.615s] gmake[2]: *** [CMakeFiles/trajectory_saver_lib.dir/build.make:76: CMakeFiles/trajectory_saver_lib.dir/src/trajectory_saver.cpp.o] Error 1
+[19.615s] gmake[1]: *** [CMakeFiles/Makefile2:599: CMakeFiles/trajectory_saver_lib.dir/all] Error 2
+[19.616s] gmake: *** [Makefile:146: all] Error 2
+[19.621s] Invoked command in '/home/dd/trajectory_tools/build/trajectory_tools' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dd/trajectory_tools/build/trajectory_tools -- -j8 -l8

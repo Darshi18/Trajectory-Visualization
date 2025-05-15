@@ -1,0 +1,607 @@
+[0.000000] (-) TimerEvent: {}
+[0.000330] (trajectory_tools) JobQueued: {'identifier': 'trajectory_tools', 'dependencies': OrderedDict()}
+[0.000414] (trajectory_tools) JobStarted: {'identifier': 'trajectory_tools'}
+[0.097521] (-) TimerEvent: {}
+[0.120530] (trajectory_tools) JobProgress: {'identifier': 'trajectory_tools', 'progress': 'cmake'}
+[0.154370] (trajectory_tools) JobProgress: {'identifier': 'trajectory_tools', 'progress': 'build'}
+[0.155463] (trajectory_tools) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dd/trajectory_tools/build/trajectory_tools', '--', '-j8', '-l8'], 'cwd': '/home/dd/trajectory_tools/build/trajectory_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dd'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/dd/trajectory_tools/install/trajectory_tools/lib'), ('HOME', '/home/dd'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3838'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dd/trajectory_tools/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dd-HP-Laptop-15-bs1xx:@/tmp/.ICE-unix/1664,unix/dd-HP-Laptop-15-bs1xx:/tmp/.ICE-unix/1664'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/07b9e654_b575_43f4_847f_72a4ed28f8b5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.U72G62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.139'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dd/trajectory_tools/install/trajectory_tools:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dd/trajectory_tools/build/trajectory_tools'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dd/trajectory_tools/install/trajectory_tools:/opt/ros/humble')]), 'shell': False}
+[0.197682] (-) TimerEvent: {}
+[0.300259] (-) TimerEvent: {}
+[0.401211] (-) TimerEvent: {}
+[0.502120] (-) TimerEvent: {}
+[0.603529] (-) TimerEvent: {}
+[0.704649] (-) TimerEvent: {}
+[0.805337] (-) TimerEvent: {}
+[0.906294] (-) TimerEvent: {}
+[1.007657] (-) TimerEvent: {}
+[1.108463] (-) TimerEvent: {}
+[1.209085] (-) TimerEvent: {}
+[1.309933] (-) TimerEvent: {}
+[1.410546] (-) TimerEvent: {}
+[1.452516] (trajectory_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target trajectory_reader_lib\x1b[0m\n'}
+[1.510891] (-) TimerEvent: {}
+[1.611922] (-) TimerEvent: {}
+[1.682920] (trajectory_tools) StdoutLine: {'line': b'[  2%] Built target trajectory_tools__cpp\n'}
+[1.712022] (-) TimerEvent: {}
+[1.798922] (trajectory_tools) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_trajectory_tools\n'}
+[1.812163] (-) TimerEvent: {}
+[1.912708] (-) TimerEvent: {}
+[2.013227] (-) TimerEvent: {}
+[2.113528] (-) TimerEvent: {}
+[2.214206] (-) TimerEvent: {}
+[2.316204] (-) TimerEvent: {}
+[2.416622] (-) TimerEvent: {}
+[2.516934] (-) TimerEvent: {}
+[2.617722] (-) TimerEvent: {}
+[2.718745] (-) TimerEvent: {}
+[2.819017] (-) TimerEvent: {}
+[2.829303] (trajectory_tools) StdoutLine: {'line': b'[ 10%] Built target trajectory_tools__rosidl_generator_c\n'}
+[2.919251] (-) TimerEvent: {}
+[3.020108] (-) TimerEvent: {}
+[3.120577] (-) TimerEvent: {}
+[3.201718] (trajectory_tools) StdoutLine: {'line': b'running egg_info\n'}
+[3.202093] (trajectory_tools) StdoutLine: {'line': b'[ 17%] Built target trajectory_tools__rosidl_typesupport_cpp\n'}
+[3.202375] (trajectory_tools) StdoutLine: {'line': b'[ 25%] Built target trajectory_tools__rosidl_typesupport_introspection_cpp\n'}
+[3.202656] (trajectory_tools) StdoutLine: {'line': b'writing trajectory_tools.egg-info/PKG-INFO\n'}
+[3.202979] (trajectory_tools) StdoutLine: {'line': b'writing dependency_links to trajectory_tools.egg-info/dependency_links.txt\n'}
+[3.203302] (trajectory_tools) StdoutLine: {'line': b'[ 33%] Built target trajectory_tools__rosidl_typesupport_introspection_c\n'}
+[3.203557] (trajectory_tools) StdoutLine: {'line': b'writing top-level names to trajectory_tools.egg-info/top_level.txt\n'}
+[3.205507] (trajectory_tools) StdoutLine: {'line': b'[ 41%] Built target trajectory_tools__rosidl_typesupport_c\n'}
+[3.220660] (-) TimerEvent: {}
+[3.250411] (trajectory_tools) StdoutLine: {'line': b"reading manifest file 'trajectory_tools.egg-info/SOURCES.txt'\n"}
+[3.262271] (trajectory_tools) StdoutLine: {'line': b'[ 48%] Built target trajectory_tools__rosidl_typesupport_fastrtps_cpp\n'}
+[3.263629] (trajectory_tools) StdoutLine: {'line': b'[ 56%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c\n'}
+[3.273669] (trajectory_tools) StdoutLine: {'line': b"writing manifest file 'trajectory_tools.egg-info/SOURCES.txt'\n"}
+[3.320889] (-) TimerEvent: {}
+[3.330194] (trajectory_tools) StdoutLine: {'line': b'[ 56%] Built target ament_cmake_python_build_trajectory_tools_egg\n'}
+[3.421006] (-) TimerEvent: {}
+[3.426715] (trajectory_tools) StdoutLine: {'line': b'[ 56%] Built target trajectory_tools\n'}
+[3.521233] (-) TimerEvent: {}
+[3.619047] (trajectory_tools) StdoutLine: {'line': b'[ 58%] Built target trajectory_tools__py\n'}
+[3.621331] (-) TimerEvent: {}
+[3.721934] (-) TimerEvent: {}
+[3.822444] (-) TimerEvent: {}
+[3.922863] (-) TimerEvent: {}
+[4.023300] (-) TimerEvent: {}
+[4.123685] (-) TimerEvent: {}
+[4.223980] (-) TimerEvent: {}
+[4.324368] (-) TimerEvent: {}
+[4.353614] (trajectory_tools) StdoutLine: {'line': b'[ 64%] Built target trajectory_tools__rosidl_generator_py\n'}
+[4.424567] (-) TimerEvent: {}
+[4.525138] (-) TimerEvent: {}
+[4.578068] (trajectory_tools) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/trajectory_reader_lib.dir/src/trajectory_reader.cpp.o\x1b[0m\n'}
+[4.625281] (-) TimerEvent: {}
+[4.625832] (trajectory_tools) StdoutLine: {'line': b'[ 71%] Built target trajectory_tools__rosidl_typesupport_introspection_c__pyext\n'}
+[4.647552] (trajectory_tools) StdoutLine: {'line': b'[ 76%] Built target trajectory_tools__rosidl_typesupport_c__pyext\n'}
+[4.656711] (trajectory_tools) StdoutLine: {'line': b'[ 82%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.716246] (trajectory_tools) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/trajectory_saver_lib.dir/src/trajectory_saver.cpp.o\x1b[0m\n'}
+[4.725450] (-) TimerEvent: {}
+[4.825957] (-) TimerEvent: {}
+[4.926481] (-) TimerEvent: {}
+[5.026920] (-) TimerEvent: {}
+[5.127786] (-) TimerEvent: {}
+[5.231680] (-) TimerEvent: {}
+[5.332175] (-) TimerEvent: {}
+[5.433110] (-) TimerEvent: {}
+[5.534207] (-) TimerEvent: {}
+[5.634947] (-) TimerEvent: {}
+[5.735527] (-) TimerEvent: {}
+[5.836232] (-) TimerEvent: {}
+[5.936667] (-) TimerEvent: {}
+[6.037082] (-) TimerEvent: {}
+[6.137518] (-) TimerEvent: {}
+[6.237985] (-) TimerEvent: {}
+[6.338424] (-) TimerEvent: {}
+[6.439155] (-) TimerEvent: {}
+[6.540395] (-) TimerEvent: {}
+[6.640875] (-) TimerEvent: {}
+[6.741461] (-) TimerEvent: {}
+[6.842230] (-) TimerEvent: {}
+[6.943071] (-) TimerEvent: {}
+[7.044707] (-) TimerEvent: {}
+[7.145647] (-) TimerEvent: {}
+[7.246751] (-) TimerEvent: {}
+[7.347160] (-) TimerEvent: {}
+[7.447660] (-) TimerEvent: {}
+[7.547989] (-) TimerEvent: {}
+[7.648305] (-) TimerEvent: {}
+[7.748663] (-) TimerEvent: {}
+[7.849149] (-) TimerEvent: {}
+[7.949825] (-) TimerEvent: {}
+[8.054656] (-) TimerEvent: {}
+[8.155391] (-) TimerEvent: {}
+[8.255819] (-) TimerEvent: {}
+[8.356163] (-) TimerEvent: {}
+[8.456807] (-) TimerEvent: {}
+[8.559285] (-) TimerEvent: {}
+[8.659814] (-) TimerEvent: {}
+[8.760497] (-) TimerEvent: {}
+[8.861563] (-) TimerEvent: {}
+[8.962279] (-) TimerEvent: {}
+[9.062740] (-) TimerEvent: {}
+[9.163334] (-) TimerEvent: {}
+[9.263927] (-) TimerEvent: {}
+[9.364406] (-) TimerEvent: {}
+[9.464905] (-) TimerEvent: {}
+[9.565980] (-) TimerEvent: {}
+[9.667198] (-) TimerEvent: {}
+[9.768411] (-) TimerEvent: {}
+[9.872420] (-) TimerEvent: {}
+[9.973207] (-) TimerEvent: {}
+[10.074333] (-) TimerEvent: {}
+[10.175214] (-) TimerEvent: {}
+[10.275693] (-) TimerEvent: {}
+[10.376456] (-) TimerEvent: {}
+[10.477230] (-) TimerEvent: {}
+[10.577689] (-) TimerEvent: {}
+[10.678450] (-) TimerEvent: {}
+[10.779325] (-) TimerEvent: {}
+[10.880051] (-) TimerEvent: {}
+[10.981394] (-) TimerEvent: {}
+[11.082860] (-) TimerEvent: {}
+[11.184178] (-) TimerEvent: {}
+[11.284659] (-) TimerEvent: {}
+[11.385240] (-) TimerEvent: {}
+[11.486367] (-) TimerEvent: {}
+[11.586900] (-) TimerEvent: {}
+[11.687350] (-) TimerEvent: {}
+[11.788058] (-) TimerEvent: {}
+[11.888655] (-) TimerEvent: {}
+[11.989089] (-) TimerEvent: {}
+[12.089586] (-) TimerEvent: {}
+[12.191048] (-) TimerEvent: {}
+[12.291567] (-) TimerEvent: {}
+[12.392284] (-) TimerEvent: {}
+[12.492871] (-) TimerEvent: {}
+[12.593289] (-) TimerEvent: {}
+[12.693718] (-) TimerEvent: {}
+[12.794156] (-) TimerEvent: {}
+[12.894800] (-) TimerEvent: {}
+[12.995172] (-) TimerEvent: {}
+[13.096032] (-) TimerEvent: {}
+[13.197296] (-) TimerEvent: {}
+[13.297751] (-) TimerEvent: {}
+[13.398351] (-) TimerEvent: {}
+[13.499366] (-) TimerEvent: {}
+[13.600030] (-) TimerEvent: {}
+[13.700601] (-) TimerEvent: {}
+[13.801180] (-) TimerEvent: {}
+[13.902833] (-) TimerEvent: {}
+[14.003198] (-) TimerEvent: {}
+[14.103920] (-) TimerEvent: {}
+[14.204962] (-) TimerEvent: {}
+[14.305559] (-) TimerEvent: {}
+[14.405896] (-) TimerEvent: {}
+[14.507180] (-) TimerEvent: {}
+[14.609063] (-) TimerEvent: {}
+[14.709510] (-) TimerEvent: {}
+[14.810610] (-) TimerEvent: {}
+[14.911172] (-) TimerEvent: {}
+[15.012976] (-) TimerEvent: {}
+[15.113788] (-) TimerEvent: {}
+[15.214692] (-) TimerEvent: {}
+[15.315054] (-) TimerEvent: {}
+[15.415778] (-) TimerEvent: {}
+[15.517016] (-) TimerEvent: {}
+[15.618038] (-) TimerEvent: {}
+[15.718655] (-) TimerEvent: {}
+[15.819706] (-) TimerEvent: {}
+[15.920585] (-) TimerEvent: {}
+[16.021103] (-) TimerEvent: {}
+[16.121571] (-) TimerEvent: {}
+[16.222595] (-) TimerEvent: {}
+[16.323268] (-) TimerEvent: {}
+[16.423824] (-) TimerEvent: {}
+[16.524720] (-) TimerEvent: {}
+[16.625152] (-) TimerEvent: {}
+[16.726071] (-) TimerEvent: {}
+[16.827937] (-) TimerEvent: {}
+[16.928833] (-) TimerEvent: {}
+[17.029744] (-) TimerEvent: {}
+[17.131616] (-) TimerEvent: {}
+[17.232006] (-) TimerEvent: {}
+[17.332367] (-) TimerEvent: {}
+[17.432810] (-) TimerEvent: {}
+[17.533363] (-) TimerEvent: {}
+[17.633942] (-) TimerEvent: {}
+[17.734817] (-) TimerEvent: {}
+[17.836162] (-) TimerEvent: {}
+[17.936593] (-) TimerEvent: {}
+[18.036967] (-) TimerEvent: {}
+[18.137463] (-) TimerEvent: {}
+[18.238006] (-) TimerEvent: {}
+[18.338456] (-) TimerEvent: {}
+[18.439142] (-) TimerEvent: {}
+[18.540002] (-) TimerEvent: {}
+[18.566822] (trajectory_tools) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libtrajectory_reader_lib.so\x1b[0m\n'}
+[18.640231] (-) TimerEvent: {}
+[18.740841] (-) TimerEvent: {}
+[18.841265] (-) TimerEvent: {}
+[18.942015] (-) TimerEvent: {}
+[19.042934] (-) TimerEvent: {}
+[19.143427] (-) TimerEvent: {}
+[19.244328] (-) TimerEvent: {}
+[19.344743] (-) TimerEvent: {}
+[19.445100] (-) TimerEvent: {}
+[19.546087] (-) TimerEvent: {}
+[19.646496] (-) TimerEvent: {}
+[19.746907] (-) TimerEvent: {}
+[19.847394] (-) TimerEvent: {}
+[19.865734] (trajectory_tools) StdoutLine: {'line': b'[ 87%] Built target trajectory_reader_lib\n'}
+[19.947623] (-) TimerEvent: {}
+[20.038182] (trajectory_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target trajectory_reader_node\x1b[0m\n'}
+[20.047706] (-) TimerEvent: {}
+[20.083307] (trajectory_tools) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object CMakeFiles/trajectory_reader_node.dir/src/main_reader.cpp.o\x1b[0m\n'}
+[20.147848] (-) TimerEvent: {}
+[20.248428] (-) TimerEvent: {}
+[20.349143] (-) TimerEvent: {}
+[20.449772] (-) TimerEvent: {}
+[20.550714] (-) TimerEvent: {}
+[20.652130] (-) TimerEvent: {}
+[20.752591] (-) TimerEvent: {}
+[20.852956] (-) TimerEvent: {}
+[20.953554] (-) TimerEvent: {}
+[21.054131] (-) TimerEvent: {}
+[21.154563] (-) TimerEvent: {}
+[21.256233] (-) TimerEvent: {}
+[21.357281] (-) TimerEvent: {}
+[21.457796] (-) TimerEvent: {}
+[21.558787] (-) TimerEvent: {}
+[21.659962] (-) TimerEvent: {}
+[21.760556] (-) TimerEvent: {}
+[21.862019] (-) TimerEvent: {}
+[21.963797] (-) TimerEvent: {}
+[22.064730] (-) TimerEvent: {}
+[22.169262] (-) TimerEvent: {}
+[22.270255] (-) TimerEvent: {}
+[22.370797] (-) TimerEvent: {}
+[22.471454] (-) TimerEvent: {}
+[22.572248] (-) TimerEvent: {}
+[22.672903] (-) TimerEvent: {}
+[22.773344] (-) TimerEvent: {}
+[22.873973] (-) TimerEvent: {}
+[22.974919] (-) TimerEvent: {}
+[23.075366] (-) TimerEvent: {}
+[23.176057] (-) TimerEvent: {}
+[23.277376] (-) TimerEvent: {}
+[23.377941] (-) TimerEvent: {}
+[23.478859] (-) TimerEvent: {}
+[23.585637] (-) TimerEvent: {}
+[23.688147] (-) TimerEvent: {}
+[23.789371] (-) TimerEvent: {}
+[23.891394] (-) TimerEvent: {}
+[23.993034] (-) TimerEvent: {}
+[24.094876] (-) TimerEvent: {}
+[24.195410] (-) TimerEvent: {}
+[24.296706] (-) TimerEvent: {}
+[24.398671] (-) TimerEvent: {}
+[24.499814] (-) TimerEvent: {}
+[24.606241] (-) TimerEvent: {}
+[24.707135] (-) TimerEvent: {}
+[24.817830] (-) TimerEvent: {}
+[24.923592] (-) TimerEvent: {}
+[25.024336] (-) TimerEvent: {}
+[25.125593] (-) TimerEvent: {}
+[25.226795] (-) TimerEvent: {}
+[25.327929] (-) TimerEvent: {}
+[25.428525] (-) TimerEvent: {}
+[25.529297] (-) TimerEvent: {}
+[25.631124] (-) TimerEvent: {}
+[25.731677] (-) TimerEvent: {}
+[25.832582] (-) TimerEvent: {}
+[25.933776] (-) TimerEvent: {}
+[26.034214] (-) TimerEvent: {}
+[26.135848] (-) TimerEvent: {}
+[26.238235] (-) TimerEvent: {}
+[26.338790] (-) TimerEvent: {}
+[26.440002] (-) TimerEvent: {}
+[26.541314] (-) TimerEvent: {}
+[26.641941] (-) TimerEvent: {}
+[26.746261] (-) TimerEvent: {}
+[26.847587] (-) TimerEvent: {}
+[26.947994] (-) TimerEvent: {}
+[27.048747] (-) TimerEvent: {}
+[27.149516] (-) TimerEvent: {}
+[27.249853] (-) TimerEvent: {}
+[27.350515] (-) TimerEvent: {}
+[27.451078] (-) TimerEvent: {}
+[27.552452] (-) TimerEvent: {}
+[27.652925] (-) TimerEvent: {}
+[27.753727] (-) TimerEvent: {}
+[27.855865] (-) TimerEvent: {}
+[27.956323] (-) TimerEvent: {}
+[28.060196] (-) TimerEvent: {}
+[28.162260] (-) TimerEvent: {}
+[28.262697] (-) TimerEvent: {}
+[28.364191] (-) TimerEvent: {}
+[28.465708] (-) TimerEvent: {}
+[28.566327] (-) TimerEvent: {}
+[28.668521] (-) TimerEvent: {}
+[28.769958] (-) TimerEvent: {}
+[28.871424] (-) TimerEvent: {}
+[28.972387] (-) TimerEvent: {}
+[29.078188] (-) TimerEvent: {}
+[29.179563] (-) TimerEvent: {}
+[29.282177] (-) TimerEvent: {}
+[29.382789] (-) TimerEvent: {}
+[29.483676] (-) TimerEvent: {}
+[29.587551] (-) TimerEvent: {}
+[29.688241] (-) TimerEvent: {}
+[29.789757] (-) TimerEvent: {}
+[29.890652] (-) TimerEvent: {}
+[29.992655] (-) TimerEvent: {}
+[30.095377] (-) TimerEvent: {}
+[30.196708] (-) TimerEvent: {}
+[30.298586] (-) TimerEvent: {}
+[30.400560] (-) TimerEvent: {}
+[30.502512] (-) TimerEvent: {}
+[30.603371] (-) TimerEvent: {}
+[30.708144] (-) TimerEvent: {}
+[30.809095] (-) TimerEvent: {}
+[30.910336] (-) TimerEvent: {}
+[31.011765] (-) TimerEvent: {}
+[31.114756] (-) TimerEvent: {}
+[31.218154] (-) TimerEvent: {}
+[31.319708] (-) TimerEvent: {}
+[31.421062] (-) TimerEvent: {}
+[31.523074] (-) TimerEvent: {}
+[31.624183] (-) TimerEvent: {}
+[31.726783] (-) TimerEvent: {}
+[31.827313] (-) TimerEvent: {}
+[31.928556] (-) TimerEvent: {}
+[32.031568] (-) TimerEvent: {}
+[32.132787] (-) TimerEvent: {}
+[32.234331] (-) TimerEvent: {}
+[32.334940] (-) TimerEvent: {}
+[32.435517] (-) TimerEvent: {}
+[32.538912] (-) TimerEvent: {}
+[32.639863] (-) TimerEvent: {}
+[32.740369] (-) TimerEvent: {}
+[32.840975] (-) TimerEvent: {}
+[32.941910] (-) TimerEvent: {}
+[33.042374] (-) TimerEvent: {}
+[33.143051] (-) TimerEvent: {}
+[33.244605] (-) TimerEvent: {}
+[33.345189] (-) TimerEvent: {}
+[33.445909] (-) TimerEvent: {}
+[33.546843] (-) TimerEvent: {}
+[33.647443] (-) TimerEvent: {}
+[33.747927] (-) TimerEvent: {}
+[33.848528] (-) TimerEvent: {}
+[33.949619] (-) TimerEvent: {}
+[34.050169] (-) TimerEvent: {}
+[34.153700] (-) TimerEvent: {}
+[34.254449] (-) TimerEvent: {}
+[34.354955] (-) TimerEvent: {}
+[34.455885] (-) TimerEvent: {}
+[34.557015] (-) TimerEvent: {}
+[34.657439] (-) TimerEvent: {}
+[34.757886] (-) TimerEvent: {}
+[34.858456] (-) TimerEvent: {}
+[34.959288] (-) TimerEvent: {}
+[35.059790] (-) TimerEvent: {}
+[35.160335] (-) TimerEvent: {}
+[35.260988] (-) TimerEvent: {}
+[35.361383] (-) TimerEvent: {}
+[35.461734] (-) TimerEvent: {}
+[35.562237] (-) TimerEvent: {}
+[35.663284] (-) TimerEvent: {}
+[35.764514] (-) TimerEvent: {}
+[35.867505] (-) TimerEvent: {}
+[35.970927] (-) TimerEvent: {}
+[36.071459] (-) TimerEvent: {}
+[36.173650] (-) TimerEvent: {}
+[36.186278] (trajectory_tools) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable trajectory_reader_node\x1b[0m\n'}
+[36.273782] (-) TimerEvent: {}
+[36.374942] (-) TimerEvent: {}
+[36.482752] (-) TimerEvent: {}
+[36.586774] (-) TimerEvent: {}
+[36.687839] (-) TimerEvent: {}
+[36.788229] (-) TimerEvent: {}
+[36.888795] (-) TimerEvent: {}
+[36.990765] (-) TimerEvent: {}
+[37.091264] (-) TimerEvent: {}
+[37.191769] (-) TimerEvent: {}
+[37.293131] (-) TimerEvent: {}
+[37.347544] (trajectory_tools) StdoutLine: {'line': b'[ 92%] Built target trajectory_reader_node\n'}
+[37.393250] (-) TimerEvent: {}
+[37.493575] (-) TimerEvent: {}
+[37.593979] (-) TimerEvent: {}
+[37.694461] (-) TimerEvent: {}
+[37.794904] (-) TimerEvent: {}
+[37.895329] (-) TimerEvent: {}
+[37.995902] (-) TimerEvent: {}
+[38.096564] (-) TimerEvent: {}
+[38.197061] (-) TimerEvent: {}
+[38.297635] (-) TimerEvent: {}
+[38.397531] (trajectory_tools) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX shared library libtrajectory_saver_lib.so\x1b[0m\n'}
+[38.398002] (-) TimerEvent: {}
+[38.498762] (-) TimerEvent: {}
+[38.599668] (-) TimerEvent: {}
+[38.700923] (-) TimerEvent: {}
+[38.801393] (-) TimerEvent: {}
+[38.902034] (-) TimerEvent: {}
+[39.002762] (-) TimerEvent: {}
+[39.103958] (-) TimerEvent: {}
+[39.204565] (-) TimerEvent: {}
+[39.305752] (-) TimerEvent: {}
+[39.406751] (-) TimerEvent: {}
+[39.507264] (-) TimerEvent: {}
+[39.607668] (-) TimerEvent: {}
+[39.708320] (-) TimerEvent: {}
+[39.809393] (-) TimerEvent: {}
+[39.909915] (-) TimerEvent: {}
+[40.010351] (-) TimerEvent: {}
+[40.111119] (-) TimerEvent: {}
+[40.211756] (-) TimerEvent: {}
+[40.307450] (trajectory_tools) StdoutLine: {'line': b'[ 94%] Built target trajectory_saver_lib\n'}
+[40.312088] (-) TimerEvent: {}
+[40.412824] (-) TimerEvent: {}
+[40.512947] (trajectory_tools) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable trajectory_saver_node\x1b[0m\n'}
+[40.513333] (-) TimerEvent: {}
+[40.613759] (-) TimerEvent: {}
+[40.714585] (-) TimerEvent: {}
+[40.815952] (-) TimerEvent: {}
+[40.916878] (-) TimerEvent: {}
+[41.017703] (-) TimerEvent: {}
+[41.119183] (-) TimerEvent: {}
+[41.219807] (-) TimerEvent: {}
+[41.322407] (-) TimerEvent: {}
+[41.424020] (-) TimerEvent: {}
+[41.524802] (-) TimerEvent: {}
+[41.625559] (-) TimerEvent: {}
+[41.726435] (-) TimerEvent: {}
+[41.827165] (-) TimerEvent: {}
+[41.828607] (trajectory_tools) StdoutLine: {'line': b'[100%] Built target trajectory_saver_node\n'}
+[41.872956] (trajectory_tools) CommandEnded: {'returncode': 0}
+[41.927626] (-) TimerEvent: {}
+[41.930138] (trajectory_tools) JobProgress: {'identifier': 'trajectory_tools', 'progress': 'install'}
+[41.953635] (trajectory_tools) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dd/trajectory_tools/build/trajectory_tools'], 'cwd': '/home/dd/trajectory_tools/build/trajectory_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dd'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/dd/trajectory_tools/install/trajectory_tools/lib'), ('HOME', '/home/dd'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3838'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dd/trajectory_tools/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dd-HP-Laptop-15-bs1xx:@/tmp/.ICE-unix/1664,unix/dd-HP-Laptop-15-bs1xx:/tmp/.ICE-unix/1664'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/07b9e654_b575_43f4_847f_72a4ed28f8b5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.U72G62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.139'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dd/trajectory_tools/install/trajectory_tools:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dd/trajectory_tools/build/trajectory_tools'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dd/trajectory_tools/install/trajectory_tools:/opt/ros/humble')]), 'shell': False}
+[42.003421] (trajectory_tools) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[42.012642] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/ament_index/resource_index/rosidl_interfaces/trajectory_tools\n'}
+[42.012982] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools\n'}
+[42.013213] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/msg\n'}
+[42.013476] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/msg/rosidl_generator_c__visibility_control.h\n'}
+[42.013874] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv\n'}
+[42.014091] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/save_trajectory.h\n'}
+[42.014382] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail\n'}
+[42.014664] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__type_support.h\n'}
+[42.014848] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__struct.h\n'}
+[42.015028] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__functions.c\n'}
+[42.015184] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__functions.h\n'}
+[42.015345] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/environment/library_path.sh\n'}
+[42.015551] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/environment/library_path.dsv\n'}
+[42.027609] (-) TimerEvent: {}
+[42.037322] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/lib/libtrajectory_tools__rosidl_generator_c.so\n'}
+[42.037802] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools\n'}
+[42.038188] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/msg\n'}
+[42.039112] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[42.040270] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv\n'}
+[42.040867] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail\n'}
+[42.041275] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__rosidl_typesupport_fastrtps_c.h\n'}
+[42.041582] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/lib/libtrajectory_tools__rosidl_typesupport_fastrtps_c.so\n'}
+[42.041944] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools\n'}
+[42.042443] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/msg\n'}
+[42.042910] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[42.043293] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv\n'}
+[42.043519] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/save_trajectory.hpp\n'}
+[42.044087] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail\n'}
+[42.044611] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__type_support.hpp\n'}
+[42.044851] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__traits.hpp\n'}
+[42.045007] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__builder.hpp\n'}
+[42.045147] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__struct.hpp\n'}
+[42.045283] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools\n'}
+[42.045441] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/msg\n'}
+[42.045664] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[42.045822] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv\n'}
+[42.045964] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail\n'}
+[42.046110] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/dds_fastrtps\n'}
+[42.046247] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[42.046393] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/lib/libtrajectory_tools__rosidl_typesupport_fastrtps_cpp.so\n'}
+[42.046584] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools\n'}
+[42.046739] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/msg\n'}
+[42.046877] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[42.047014] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv\n'}
+[42.047147] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail\n'}
+[42.047286] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__rosidl_typesupport_introspection_c.h\n'}
+[42.047444] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__type_support.c\n'}
+[42.055732] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/lib/libtrajectory_tools__rosidl_typesupport_introspection_c.so\n'}
+[42.056916] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/lib/libtrajectory_tools__rosidl_typesupport_c.so\n'}
+[42.057494] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools\n'}
+[42.057865] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv\n'}
+[42.058232] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail\n'}
+[42.058437] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__type_support.cpp\n'}
+[42.058673] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/trajectory_tools/trajectory_tools/srv/detail/save_trajectory__rosidl_typesupport_introspection_cpp.hpp\n'}
+[42.059148] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/lib/libtrajectory_tools__rosidl_typesupport_introspection_cpp.so\n'}
+[42.059958] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/lib/libtrajectory_tools__rosidl_typesupport_cpp.so\n'}
+[42.060333] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/environment/pythonpath.sh\n'}
+[42.060624] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/environment/pythonpath.dsv\n'}
+[42.060803] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools-0.0.1-py3.10.egg-info\n'}
+[42.061009] (trajectory_tools) StdoutLine: {'line': b'-- Installing: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[42.061177] (trajectory_tools) StdoutLine: {'line': b'-- Installing: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[42.061415] (trajectory_tools) StdoutLine: {'line': b'-- Installing: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[42.061681] (trajectory_tools) StdoutLine: {'line': b'-- Installing: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[42.061958] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools\n'}
+[42.062127] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/libtrajectory_tools__rosidl_generator_py.so\n'}
+[42.062405] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/trajectory_tools_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[42.062598] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/trajectory_tools_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[42.062761] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/_trajectory_tools_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[42.062915] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/__init__.py\n'}
+[42.063061] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/srv\n'}
+[42.063218] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/srv/_save_trajectory_s.c\n'}
+[42.063364] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/srv/__init__.py\n'}
+[42.063539] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/srv/_save_trajectory.py\n'}
+[42.063704] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/trajectory_tools_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[42.063855] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/_trajectory_tools_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[42.064033] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/_trajectory_tools_s.ep.rosidl_typesupport_c.c\n'}
+[42.127708] (-) TimerEvent: {}
+[42.165943] (trajectory_tools) StdoutLine: {'line': b"Listing '/home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools'...\n"}
+[42.166319] (trajectory_tools) StdoutLine: {'line': b"Listing '/home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/srv'...\n"}
+[42.189613] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/trajectory_tools_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[42.191215] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/trajectory_tools_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[42.192886] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages/trajectory_tools/trajectory_tools_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[42.193272] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/lib/libtrajectory_tools__rosidl_generator_py.so\n'}
+[42.198386] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/srv/SaveTrajectory.idl\n'}
+[42.200563] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/srv/SaveTrajectory.srv\n'}
+[42.201256] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/srv/SaveTrajectory_Request.msg\n'}
+[42.201645] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/srv/SaveTrajectory_Response.msg\n'}
+[42.201875] (trajectory_tools) StdoutLine: {'line': b'-- Installing: /home/dd/trajectory_tools/install/trajectory_tools/lib/trajectory_tools/trajectory_saver_node\n'}
+[42.203230] (trajectory_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/dd/trajectory_tools/install/trajectory_tools/lib/trajectory_tools/trajectory_saver_node" to ""\n'}
+[42.212347] (trajectory_tools) StdoutLine: {'line': b'-- Installing: /home/dd/trajectory_tools/install/trajectory_tools/lib/trajectory_tools/trajectory_reader_node\n'}
+[42.216163] (trajectory_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/dd/trajectory_tools/install/trajectory_tools/lib/trajectory_tools/trajectory_reader_node" to ""\n'}
+[42.227843] (-) TimerEvent: {}
+[42.229548] (trajectory_tools) StdoutLine: {'line': b'-- Installing: /home/dd/trajectory_tools/install/trajectory_tools/lib/trajectory_tools/libtrajectory_saver_lib.so\n'}
+[42.248687] (trajectory_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/dd/trajectory_tools/install/trajectory_tools/lib/trajectory_tools/libtrajectory_saver_lib.so" to ""\n'}
+[42.259917] (trajectory_tools) StdoutLine: {'line': b'-- Installing: /home/dd/trajectory_tools/install/trajectory_tools/lib/trajectory_tools/libtrajectory_reader_lib.so\n'}
+[42.260864] (trajectory_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/dd/trajectory_tools/install/trajectory_tools/lib/trajectory_tools/libtrajectory_reader_lib.so" to ""\n'}
+[42.261327] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include/\n'}
+[42.261621] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include//trajectory_tools\n'}
+[42.262016] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include//trajectory_tools/trajectory_saver.txt\n'}
+[42.263819] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include//trajectory_tools/trajectory_reader.hpp\n'}
+[42.264439] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include//trajectory_tools/trajectory_reader.txt\n'}
+[42.264884] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/include//trajectory_tools/trajectory_saver.hpp\n'}
+[42.265097] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/ament_index/resource_index/package_run_dependencies/trajectory_tools\n'}
+[42.265282] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/ament_index/resource_index/parent_prefix_path/trajectory_tools\n'}
+[42.265543] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/environment/ament_prefix_path.sh\n'}
+[42.265770] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/environment/ament_prefix_path.dsv\n'}
+[42.265962] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/environment/path.sh\n'}
+[42.266130] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/environment/path.dsv\n'}
+[42.266305] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/local_setup.bash\n'}
+[42.266543] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/local_setup.sh\n'}
+[42.266758] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/local_setup.zsh\n'}
+[42.266912] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/local_setup.dsv\n'}
+[42.267055] (trajectory_tools) StdoutLine: {'line': b'-- Installing: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/package.dsv\n'}
+[42.270229] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/ament_index/resource_index/packages/trajectory_tools\n'}
+[42.314349] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/export_trajectory_tools__rosidl_generator_cExport.cmake\n'}
+[42.315008] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/export_trajectory_tools__rosidl_generator_cExport-noconfig.cmake\n'}
+[42.315463] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/export_trajectory_tools__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[42.315801] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/export_trajectory_tools__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[42.316419] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/export_trajectory_tools__rosidl_generator_cppExport.cmake\n'}
+[42.317170] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/export_trajectory_tools__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[42.318027] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/export_trajectory_tools__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[42.319129] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/trajectory_tools__rosidl_typesupport_introspection_cExport.cmake\n'}
+[42.319637] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/trajectory_tools__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[42.320239] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/trajectory_tools__rosidl_typesupport_cExport.cmake\n'}
+[42.320905] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/trajectory_tools__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[42.321351] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/trajectory_tools__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[42.321605] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/trajectory_tools__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[42.321832] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/trajectory_tools__rosidl_typesupport_cppExport.cmake\n'}
+[42.322170] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/trajectory_tools__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[42.322493] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/export_trajectory_tools__rosidl_generator_pyExport.cmake\n'}
+[42.322738] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/export_trajectory_tools__rosidl_generator_pyExport-noconfig.cmake\n'}
+[42.322931] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/rosidl_cmake-extras.cmake\n'}
+[42.323069] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[42.323276] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[42.323553] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[42.323812] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[42.323916] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[42.324006] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[42.324117] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/trajectory_toolsConfig.cmake\n'}
+[42.324206] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/cmake/trajectory_toolsConfig-version.cmake\n'}
+[42.324295] (trajectory_tools) StdoutLine: {'line': b'-- Up-to-date: /home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/package.xml\n'}
+[42.328014] (-) TimerEvent: {}
+[42.339478] (trajectory_tools) CommandEnded: {'returncode': 0}
+[42.428589] (-) TimerEvent: {}
+[42.528942] (-) TimerEvent: {}
+[42.571610] (trajectory_tools) JobEnded: {'identifier': 'trajectory_tools', 'rc': 0}
+[42.573138] (-) EventReactorShutdown: {}

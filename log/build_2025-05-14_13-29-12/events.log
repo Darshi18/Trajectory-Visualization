@@ -1,0 +1,344 @@
+[0.000000] (-) TimerEvent: {}
+[0.000377] (trajectory_tools) JobQueued: {'identifier': 'trajectory_tools', 'dependencies': OrderedDict()}
+[0.000461] (trajectory_tools) JobStarted: {'identifier': 'trajectory_tools'}
+[0.027866] (trajectory_tools) JobProgress: {'identifier': 'trajectory_tools', 'progress': 'cmake'}
+[0.030534] (trajectory_tools) JobProgress: {'identifier': 'trajectory_tools', 'progress': 'build'}
+[0.032616] (trajectory_tools) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dd/trajectory_tools/build/trajectory_tools', '--', '-j8', '-l8'], 'cwd': '/home/dd/trajectory_tools/build/trajectory_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dd'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dd/trajectory_tools/install/trajectory_tools/lib/trajectory_tools:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/dd/trajectory_tools/install/trajectory_tools/lib'), ('HOME', '/home/dd'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2413'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dd/trajectory_tools/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dd-HP-Laptop-15-bs1xx:@/tmp/.ICE-unix/1621,unix/dd-HP-Laptop-15-bs1xx:/tmp/.ICE-unix/1621'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a51aae82_1fa2_43f7_8eb2_047830fd14d8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7XBH62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dd/trajectory_tools/install/trajectory_tools:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dd/trajectory_tools/build/trajectory_tools'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dd/trajectory_tools/install/trajectory_tools:/opt/ros/humble')]), 'shell': False}
+[0.098510] (-) TimerEvent: {}
+[0.190855] (trajectory_tools) StdoutLine: {'line': b'[  2%] Built target trajectory_tools__cpp\n'}
+[0.201742] (-) TimerEvent: {}
+[0.203444] (trajectory_tools) StdoutLine: {'line': b'[ 10%] Built target trajectory_tools__rosidl_generator_c\n'}
+[0.266388] (trajectory_tools) StdoutLine: {'line': b'[ 15%] Built target trajectory_reader_lib\n'}
+[0.291596] (trajectory_tools) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_copy_trajectory_tools\n'}
+[0.304358] (-) TimerEvent: {}
+[0.325914] (trajectory_tools) StdoutLine: {'line': b'[ 23%] Built target trajectory_tools__rosidl_typesupport_introspection_cpp\n'}
+[0.346377] (trajectory_tools) StdoutLine: {'line': b'[ 30%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c\n'}
+[0.364470] (trajectory_tools) StdoutLine: {'line': b'[ 38%] Built target trajectory_tools__rosidl_typesupport_fastrtps_cpp\n'}
+[0.365237] (trajectory_tools) StdoutLine: {'line': b'[ 46%] Built target trajectory_tools__rosidl_typesupport_cpp\n'}
+[0.378257] (trajectory_tools) StdoutLine: {'line': b'[ 53%] Built target trajectory_tools__rosidl_typesupport_c\n'}
+[0.394530] (trajectory_tools) StdoutLine: {'line': b'[ 61%] Built target trajectory_tools__rosidl_typesupport_introspection_c\n'}
+[0.404871] (-) TimerEvent: {}
+[0.425595] (trajectory_tools) StdoutLine: {'line': b'[ 66%] Built target trajectory_reader_node\n'}
+[0.476484] (trajectory_tools) StdoutLine: {'line': b'[ 66%] Built target trajectory_tools\n'}
+[0.480333] (trajectory_tools) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/trajectory_saver_lib.dir/src/trajectory_saver.cpp.o\x1b[0m\n'}
+[0.505065] (-) TimerEvent: {}
+[0.549549] (trajectory_tools) StdoutLine: {'line': b'[ 71%] Built target trajectory_tools__py\n'}
+[0.606120] (-) TimerEvent: {}
+[0.631727] (trajectory_tools) StdoutLine: {'line': b'[ 76%] Built target trajectory_tools__rosidl_generator_py\n'}
+[0.710484] (-) TimerEvent: {}
+[0.727206] (trajectory_tools) StdoutLine: {'line': b'[ 82%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.727899] (trajectory_tools) StdoutLine: {'line': b'[ 87%] Built target trajectory_tools__rosidl_typesupport_c__pyext\n'}
+[0.740498] (trajectory_tools) StdoutLine: {'line': b'[ 92%] Built target trajectory_tools__rosidl_typesupport_introspection_c__pyext\n'}
+[0.810591] (-) TimerEvent: {}
+[0.911347] (-) TimerEvent: {}
+[1.012082] (-) TimerEvent: {}
+[1.112811] (-) TimerEvent: {}
+[1.213576] (-) TimerEvent: {}
+[1.314043] (-) TimerEvent: {}
+[1.356479] (trajectory_tools) StdoutLine: {'line': b'running egg_info\n'}
+[1.358876] (trajectory_tools) StdoutLine: {'line': b'writing trajectory_tools.egg-info/PKG-INFO\n'}
+[1.360489] (trajectory_tools) StdoutLine: {'line': b'writing dependency_links to trajectory_tools.egg-info/dependency_links.txt\n'}
+[1.360866] (trajectory_tools) StdoutLine: {'line': b'writing top-level names to trajectory_tools.egg-info/top_level.txt\n'}
+[1.369679] (trajectory_tools) StdoutLine: {'line': b"reading manifest file 'trajectory_tools.egg-info/SOURCES.txt'\n"}
+[1.373353] (trajectory_tools) StdoutLine: {'line': b"writing manifest file 'trajectory_tools.egg-info/SOURCES.txt'\n"}
+[1.414327] (-) TimerEvent: {}
+[1.479523] (trajectory_tools) StdoutLine: {'line': b'[ 92%] Built target ament_cmake_python_build_trajectory_tools_egg\n'}
+[1.514447] (-) TimerEvent: {}
+[1.614984] (-) TimerEvent: {}
+[1.715377] (-) TimerEvent: {}
+[1.816012] (-) TimerEvent: {}
+[1.916795] (-) TimerEvent: {}
+[2.017508] (-) TimerEvent: {}
+[2.119077] (-) TimerEvent: {}
+[2.219923] (-) TimerEvent: {}
+[2.320695] (-) TimerEvent: {}
+[2.421503] (-) TimerEvent: {}
+[2.523425] (-) TimerEvent: {}
+[2.623936] (-) TimerEvent: {}
+[2.724342] (-) TimerEvent: {}
+[2.826693] (-) TimerEvent: {}
+[2.927780] (-) TimerEvent: {}
+[3.028247] (-) TimerEvent: {}
+[3.128732] (-) TimerEvent: {}
+[3.229217] (-) TimerEvent: {}
+[3.329723] (-) TimerEvent: {}
+[3.430221] (-) TimerEvent: {}
+[3.531271] (-) TimerEvent: {}
+[3.632086] (-) TimerEvent: {}
+[3.732648] (-) TimerEvent: {}
+[3.833820] (-) TimerEvent: {}
+[3.934734] (-) TimerEvent: {}
+[4.035137] (-) TimerEvent: {}
+[4.135650] (-) TimerEvent: {}
+[4.236451] (-) TimerEvent: {}
+[4.337001] (-) TimerEvent: {}
+[4.437587] (-) TimerEvent: {}
+[4.538515] (-) TimerEvent: {}
+[4.639665] (-) TimerEvent: {}
+[4.740151] (-) TimerEvent: {}
+[4.841503] (-) TimerEvent: {}
+[4.943136] (-) TimerEvent: {}
+[5.043585] (-) TimerEvent: {}
+[5.144151] (-) TimerEvent: {}
+[5.244813] (-) TimerEvent: {}
+[5.345213] (-) TimerEvent: {}
+[5.446138] (-) TimerEvent: {}
+[5.547892] (-) TimerEvent: {}
+[5.648775] (-) TimerEvent: {}
+[5.749419] (-) TimerEvent: {}
+[5.850745] (-) TimerEvent: {}
+[5.951477] (-) TimerEvent: {}
+[6.051938] (-) TimerEvent: {}
+[6.152673] (-) TimerEvent: {}
+[6.254421] (-) TimerEvent: {}
+[6.355099] (-) TimerEvent: {}
+[6.455685] (-) TimerEvent: {}
+[6.556382] (-) TimerEvent: {}
+[6.656881] (-) TimerEvent: {}
+[6.757451] (-) TimerEvent: {}
+[6.858629] (-) TimerEvent: {}
+[6.959147] (-) TimerEvent: {}
+[7.059930] (-) TimerEvent: {}
+[7.160481] (-) TimerEvent: {}
+[7.261340] (-) TimerEvent: {}
+[7.361905] (-) TimerEvent: {}
+[7.464566] (-) TimerEvent: {}
+[7.565748] (-) TimerEvent: {}
+[7.666339] (-) TimerEvent: {}
+[7.767066] (-) TimerEvent: {}
+[7.868042] (-) TimerEvent: {}
+[7.968767] (-) TimerEvent: {}
+[8.069366] (-) TimerEvent: {}
+[8.170421] (-) TimerEvent: {}
+[8.271143] (-) TimerEvent: {}
+[8.371771] (-) TimerEvent: {}
+[8.472757] (-) TimerEvent: {}
+[8.573215] (-) TimerEvent: {}
+[8.673927] (-) TimerEvent: {}
+[8.774615] (-) TimerEvent: {}
+[8.875901] (-) TimerEvent: {}
+[8.976527] (-) TimerEvent: {}
+[9.077398] (-) TimerEvent: {}
+[9.179184] (-) TimerEvent: {}
+[9.279820] (-) TimerEvent: {}
+[9.380359] (-) TimerEvent: {}
+[9.481263] (-) TimerEvent: {}
+[9.581959] (-) TimerEvent: {}
+[9.682484] (-) TimerEvent: {}
+[9.783053] (-) TimerEvent: {}
+[9.883832] (-) TimerEvent: {}
+[9.984354] (-) TimerEvent: {}
+[10.084760] (-) TimerEvent: {}
+[10.185595] (-) TimerEvent: {}
+[10.286526] (-) TimerEvent: {}
+[10.386925] (-) TimerEvent: {}
+[10.487630] (-) TimerEvent: {}
+[10.588355] (-) TimerEvent: {}
+[10.688851] (-) TimerEvent: {}
+[10.789728] (-) TimerEvent: {}
+[10.891085] (-) TimerEvent: {}
+[10.991876] (-) TimerEvent: {}
+[11.092335] (-) TimerEvent: {}
+[11.193081] (-) TimerEvent: {}
+[11.293943] (-) TimerEvent: {}
+[11.394421] (-) TimerEvent: {}
+[11.495140] (-) TimerEvent: {}
+[11.595960] (-) TimerEvent: {}
+[11.696523] (-) TimerEvent: {}
+[11.796974] (-) TimerEvent: {}
+[11.897885] (-) TimerEvent: {}
+[11.998306] (-) TimerEvent: {}
+[12.098771] (-) TimerEvent: {}
+[12.199255] (-) TimerEvent: {}
+[12.300119] (-) TimerEvent: {}
+[12.402427] (-) TimerEvent: {}
+[12.503236] (-) TimerEvent: {}
+[12.604462] (-) TimerEvent: {}
+[12.705139] (-) TimerEvent: {}
+[12.805912] (-) TimerEvent: {}
+[12.907017] (-) TimerEvent: {}
+[13.007473] (-) TimerEvent: {}
+[13.108018] (-) TimerEvent: {}
+[13.208797] (-) TimerEvent: {}
+[13.310052] (-) TimerEvent: {}
+[13.410392] (-) TimerEvent: {}
+[13.510829] (-) TimerEvent: {}
+[13.611473] (-) TimerEvent: {}
+[13.711921] (-) TimerEvent: {}
+[13.812390] (-) TimerEvent: {}
+[13.913171] (-) TimerEvent: {}
+[14.014065] (-) TimerEvent: {}
+[14.114577] (-) TimerEvent: {}
+[14.215194] (-) TimerEvent: {}
+[14.315972] (-) TimerEvent: {}
+[14.416481] (-) TimerEvent: {}
+[14.517372] (-) TimerEvent: {}
+[14.619029] (-) TimerEvent: {}
+[14.719601] (-) TimerEvent: {}
+[14.820222] (-) TimerEvent: {}
+[14.921739] (-) TimerEvent: {}
+[15.022625] (-) TimerEvent: {}
+[15.123066] (-) TimerEvent: {}
+[15.223708] (-) TimerEvent: {}
+[15.324836] (-) TimerEvent: {}
+[15.425262] (-) TimerEvent: {}
+[15.525771] (-) TimerEvent: {}
+[15.626761] (-) TimerEvent: {}
+[15.727418] (-) TimerEvent: {}
+[15.827919] (-) TimerEvent: {}
+[15.928454] (-) TimerEvent: {}
+[16.029226] (-) TimerEvent: {}
+[16.129675] (-) TimerEvent: {}
+[16.230374] (-) TimerEvent: {}
+[16.331556] (-) TimerEvent: {}
+[16.432239] (-) TimerEvent: {}
+[16.532785] (-) TimerEvent: {}
+[16.633913] (-) TimerEvent: {}
+[16.734658] (-) TimerEvent: {}
+[16.835159] (-) TimerEvent: {}
+[16.935825] (-) TimerEvent: {}
+[17.037798] (-) TimerEvent: {}
+[17.138201] (-) TimerEvent: {}
+[17.238810] (-) TimerEvent: {}
+[17.339775] (-) TimerEvent: {}
+[17.440304] (-) TimerEvent: {}
+[17.540894] (-) TimerEvent: {}
+[17.642129] (-) TimerEvent: {}
+[17.742843] (-) TimerEvent: {}
+[17.843312] (-) TimerEvent: {}
+[17.943897] (-) TimerEvent: {}
+[18.044521] (-) TimerEvent: {}
+[18.144977] (-) TimerEvent: {}
+[18.245741] (-) TimerEvent: {}
+[18.347308] (-) TimerEvent: {}
+[18.447848] (-) TimerEvent: {}
+[18.548335] (-) TimerEvent: {}
+[18.649130] (-) TimerEvent: {}
+[18.749965] (-) TimerEvent: {}
+[18.850348] (-) TimerEvent: {}
+[18.950951] (-) TimerEvent: {}
+[19.051795] (-) TimerEvent: {}
+[19.152251] (-) TimerEvent: {}
+[19.252879] (-) TimerEvent: {}
+[19.353738] (-) TimerEvent: {}
+[19.454348] (-) TimerEvent: {}
+[19.554732] (-) TimerEvent: {}
+[19.655324] (-) TimerEvent: {}
+[19.756002] (-) TimerEvent: {}
+[19.856613] (-) TimerEvent: {}
+[19.957591] (-) TimerEvent: {}
+[20.058878] (-) TimerEvent: {}
+[20.160045] (-) TimerEvent: {}
+[20.260518] (-) TimerEvent: {}
+[20.361628] (-) TimerEvent: {}
+[20.462585] (-) TimerEvent: {}
+[20.563042] (-) TimerEvent: {}
+[20.663699] (-) TimerEvent: {}
+[20.764731] (-) TimerEvent: {}
+[20.865201] (-) TimerEvent: {}
+[20.965778] (-) TimerEvent: {}
+[21.067036] (-) TimerEvent: {}
+[21.167712] (-) TimerEvent: {}
+[21.268088] (-) TimerEvent: {}
+[21.368592] (-) TimerEvent: {}
+[21.469076] (-) TimerEvent: {}
+[21.569439] (-) TimerEvent: {}
+[21.670096] (-) TimerEvent: {}
+[21.771192] (-) TimerEvent: {}
+[21.871844] (-) TimerEvent: {}
+[21.972350] (-) TimerEvent: {}
+[22.072998] (-) TimerEvent: {}
+[22.173752] (-) TimerEvent: {}
+[22.274224] (-) TimerEvent: {}
+[22.374748] (-) TimerEvent: {}
+[22.475349] (-) TimerEvent: {}
+[22.575763] (-) TimerEvent: {}
+[22.676363] (-) TimerEvent: {}
+[22.777165] (-) TimerEvent: {}
+[22.878279] (-) TimerEvent: {}
+[22.978743] (-) TimerEvent: {}
+[23.079270] (-) TimerEvent: {}
+[23.180251] (-) TimerEvent: {}
+[23.280669] (-) TimerEvent: {}
+[23.381158] (-) TimerEvent: {}
+[23.482137] (-) TimerEvent: {}
+[23.582913] (-) TimerEvent: {}
+[23.683301] (-) TimerEvent: {}
+[23.783707] (-) TimerEvent: {}
+[23.884162] (-) TimerEvent: {}
+[23.984490] (-) TimerEvent: {}
+[24.085184] (-) TimerEvent: {}
+[24.186507] (-) TimerEvent: {}
+[24.286850] (-) TimerEvent: {}
+[24.387297] (-) TimerEvent: {}
+[24.487866] (-) TimerEvent: {}
+[24.588842] (-) TimerEvent: {}
+[24.689136] (-) TimerEvent: {}
+[24.789566] (-) TimerEvent: {}
+[24.890023] (-) TimerEvent: {}
+[24.990393] (-) TimerEvent: {}
+[25.090693] (-) TimerEvent: {}
+[25.191484] (-) TimerEvent: {}
+[25.292477] (-) TimerEvent: {}
+[25.392831] (-) TimerEvent: {}
+[25.493264] (-) TimerEvent: {}
+[25.594308] (-) TimerEvent: {}
+[25.694735] (-) TimerEvent: {}
+[25.795058] (-) TimerEvent: {}
+[25.895389] (-) TimerEvent: {}
+[25.996022] (-) TimerEvent: {}
+[26.096347] (-) TimerEvent: {}
+[26.196961] (-) TimerEvent: {}
+[26.297995] (-) TimerEvent: {}
+[26.398502] (-) TimerEvent: {}
+[26.498856] (-) TimerEvent: {}
+[26.599432] (-) TimerEvent: {}
+[26.700592] (-) TimerEvent: {}
+[26.801015] (-) TimerEvent: {}
+[26.901588] (-) TimerEvent: {}
+[27.002359] (-) TimerEvent: {}
+[27.102730] (-) TimerEvent: {}
+[27.203196] (-) TimerEvent: {}
+[27.303704] (-) TimerEvent: {}
+[27.404327] (-) TimerEvent: {}
+[27.504931] (-) TimerEvent: {}
+[27.605451] (-) TimerEvent: {}
+[27.706356] (-) TimerEvent: {}
+[27.807001] (-) TimerEvent: {}
+[27.891115] (trajectory_tools) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX shared library libtrajectory_saver_lib.so\x1b[0m\n'}
+[27.907194] (-) TimerEvent: {}
+[28.007700] (-) TimerEvent: {}
+[28.109352] (-) TimerEvent: {}
+[28.210664] (-) TimerEvent: {}
+[28.312154] (-) TimerEvent: {}
+[28.413488] (-) TimerEvent: {}
+[28.514871] (-) TimerEvent: {}
+[28.618251] (-) TimerEvent: {}
+[28.719256] (-) TimerEvent: {}
+[28.819768] (-) TimerEvent: {}
+[28.920428] (-) TimerEvent: {}
+[29.021107] (-) TimerEvent: {}
+[29.121551] (-) TimerEvent: {}
+[29.222128] (-) TimerEvent: {}
+[29.323903] (-) TimerEvent: {}
+[29.424303] (-) TimerEvent: {}
+[29.525097] (-) TimerEvent: {}
+[29.626688] (-) TimerEvent: {}
+[29.727265] (-) TimerEvent: {}
+[29.763978] (trajectory_tools) StdoutLine: {'line': b'[ 94%] Built target trajectory_saver_lib\n'}
+[29.827396] (-) TimerEvent: {}
+[29.831594] (trajectory_tools) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable trajectory_saver_node\x1b[0m\n'}
+[29.927676] (-) TimerEvent: {}
+[30.028771] (-) TimerEvent: {}
+[30.129354] (-) TimerEvent: {}
+[30.230114] (-) TimerEvent: {}
+[30.252944] (trajectory_tools) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/trajectory_saver_node.dir/src/main_saver.cpp.o: in function `void __gnu_cxx::new_allocator<TrajectorySaver>::construct<TrajectorySaver>(TrajectorySaver*)':\n"}
+[30.253450] (trajectory_tools) StderrLine: {'line': b"main_saver.cpp:(.text._ZN9__gnu_cxx13new_allocatorI15TrajectorySaverE9constructIS1_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI15TrajectorySaverE9constructIS1_JEEEvPT_DpOT0_]+0x31): undefined reference to `TrajectorySaver::TrajectorySaver()'\n"}
+[30.272060] (trajectory_tools) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[30.275504] (trajectory_tools) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/trajectory_saver_node.dir/build.make:224: trajectory_saver_node] Error 1\n'}
+[30.276317] (trajectory_tools) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:627: CMakeFiles/trajectory_saver_node.dir/all] Error 2\n'}
+[30.277618] (trajectory_tools) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[30.285688] (trajectory_tools) CommandEnded: {'returncode': 2}
+[30.330349] (-) TimerEvent: {}
+[30.334038] (trajectory_tools) JobEnded: {'identifier': 'trajectory_tools', 'rc': 2}
+[30.346575] (-) EventReactorShutdown: {}

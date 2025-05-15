@@ -1,0 +1,9 @@
+In file included from [01m[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:1[m[K:
+[01m[K/home/dd/trajectory_tools/include/trajectory_tools/trajectory_saver.hpp:8:10:[m[K [01;31m[Kfatal error: [m[Ktrajectory_tools/srv/save_trajectory.hpp: No such file or directory
+    8 | #include [01;31m[K"trajectory_tools/srv/save_trajectory.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/trajectory_saver_lib.dir/build.make:76: CMakeFiles/trajectory_saver_lib.dir/src/trajectory_saver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:598: CMakeFiles/trajectory_saver_lib.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

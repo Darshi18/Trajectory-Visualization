@@ -1,0 +1,57 @@
+[0.119s] Invoking command in '/home/dd/trajectory_tools/build/trajectory_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dd/trajectory_tools/build/trajectory_tools -- -j8 -l8
+[1.437s] [  2%] Built target trajectory_tools__cpp
+[1.490s] [  2%] Built target ament_cmake_python_copy_trajectory_tools
+[1.713s] [ 11%] Built target trajectory_tools__rosidl_generator_c
+[1.954s] [ 20%] Built target trajectory_tools__rosidl_typesupport_introspection_c
+[1.998s] [ 28%] Built target trajectory_tools__rosidl_typesupport_c
+[2.087s] [ 37%] Built target trajectory_tools__rosidl_typesupport_cpp
+[2.113s] [ 45%] Built target trajectory_tools__rosidl_typesupport_introspection_cpp
+[2.133s] [ 54%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c
+[2.142s] [ 62%] Built target trajectory_tools__rosidl_typesupport_fastrtps_cpp
+[2.243s] [35m[1mConsolidate compiler generated dependencies of target trajectory_saver_node[0m
+[2.279s] [ 62%] Built target trajectory_tools
+[2.390s] [ 65%] Built target trajectory_tools__py
+[2.863s] running egg_info
+[2.866s] writing trajectory_tools.egg-info/PKG-INFO
+[2.868s] writing dependency_links to trajectory_tools.egg-info/dependency_links.txt
+[2.868s] writing top-level names to trajectory_tools.egg-info/top_level.txt
+[2.931s] reading manifest file 'trajectory_tools.egg-info/SOURCES.txt'
+[2.947s] [ 71%] Built target trajectory_tools__rosidl_generator_py
+[2.953s] writing manifest file 'trajectory_tools.egg-info/SOURCES.txt'
+[3.010s] [ 77%] Built target trajectory_saver_node
+[3.020s] [ 80%] [32mBuilding CXX object CMakeFiles/trajectory_reader_node.dir/src/trajectory_reader.cpp.o[0m
+[3.124s] [ 85%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c__pyext
+[3.127s] [ 91%] Built target trajectory_tools__rosidl_typesupport_introspection_c__pyext
+[3.138s] [ 91%] Built target ament_cmake_python_build_trajectory_tools_egg
+[3.152s] [ 97%] Built target trajectory_tools__rosidl_typesupport_c__pyext
+[17.771s] [01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:98:48:[m[K [01;31m[Kerror: [m[K‘[01m[KMarkerArray[m[K’ is not a member of ‘[01m[Kvisualization_msgs::msg[m[K’
+[17.771s]    98 |     rclcpp::Publisher<visualization_msgs::msg::[01;31m[KMarkerArray[m[K>::SharedPtr marker_pub_;
+[17.771s]       |                                                [01;31m[K^~~~~~~~~~~[m[K
+[17.772s] [01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:98:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[17.772s]    98 |     rclcpp::Publisher<visualization_msgs::msg::MarkerArray[01;31m[K>[m[K::SharedPtr marker_pub_;
+[17.772s]       |                                                           [01;31m[K^[m[K
+[17.808s] [01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:98:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[17.809s]    98 |     rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::[01;31m[KSharedPtr[m[K marker_pub_;
+[17.809s]       |                                                              [01;31m[K^~~~~~~~~[m[K
+[17.809s]       |                                                                       [32m[K;[m[K
+[17.823s] [01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:98:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ does not name a type
+[17.824s]    98 |     rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::SharedPtr [01;31m[Kmarker_pub_[m[K;
+[17.824s]       |                                                                        [01;31m[K^~~~~~~~~~~[m[K
+[17.870s] [01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:[m[K In constructor ‘[01m[KTrajectoryReader::TrajectoryReader()[m[K’:
+[17.870s] [01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:13:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+[17.871s]    13 |         [01;31m[Kmarker_pub_[m[K = this->create_publisher<visualization_msgs::msg::Marker>("saved_trajectory_markers", 10);
+[17.871s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[17.940s] [01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryReader::publishMarkers()[m[K’:
+[17.940s] [01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:67:34:[m[K [01;31m[Kerror: [m[K‘[01m[KMarkerArray[m[K’ is not a member of ‘[01m[Kvisualization_msgs::msg[m[K’
+[17.941s]    67 |         visualization_msgs::msg::[01;31m[KMarkerArray[m[K marker_array;
+[17.941s]       |                                  [01;31m[K^~~~~~~~~~~[m[K
+[17.961s] [01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:68:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker[m[K’ was not declared in this scope
+[17.962s]    68 |         [01;31m[Kmarker[m[K.header.frame_id = "odom";  // Change to "map" if needed
+[17.962s]       |         [01;31m[K^~~~~~[m[K
+[17.998s] [01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:91:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+[17.999s]    91 |             [01;31m[Kmarker_pub_[m[K->publish(marker);
+[17.999s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[21.682s] gmake[2]: *** [CMakeFiles/trajectory_reader_node.dir/build.make:76: CMakeFiles/trajectory_reader_node.dir/src/trajectory_reader.cpp.o] Error 1
+[21.682s] gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/trajectory_reader_node.dir/all] Error 2
+[21.683s] gmake: *** [Makefile:146: all] Error 2
+[21.693s] Invoked command in '/home/dd/trajectory_tools/build/trajectory_tools' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dd/trajectory_tools/build/trajectory_tools -- -j8 -l8

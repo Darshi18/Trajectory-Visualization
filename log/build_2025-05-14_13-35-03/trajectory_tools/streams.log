@@ -1,0 +1,37 @@
+[0.029s] Invoking command in '/home/dd/trajectory_tools/build/trajectory_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dd/trajectory_tools/build/trajectory_tools -- -j8 -l8
+[0.155s] [  2%] Built target trajectory_tools__cpp
+[0.170s] [ 10%] Built target trajectory_tools__rosidl_generator_c
+[0.198s] [ 15%] Built target trajectory_reader_lib
+[0.205s] [ 15%] Built target ament_cmake_python_copy_trajectory_tools
+[0.293s] [ 23%] Built target trajectory_tools__rosidl_typesupport_fastrtps_cpp
+[0.293s] [ 30%] Built target trajectory_tools__rosidl_typesupport_cpp
+[0.303s] [ 38%] Built target trajectory_tools__rosidl_typesupport_introspection_cpp
+[0.315s] [ 46%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c
+[0.322s] [ 53%] Built target trajectory_tools__rosidl_typesupport_c
+[0.323s] [ 61%] Built target trajectory_tools__rosidl_typesupport_introspection_c
+[0.352s] [ 66%] Built target trajectory_reader_node
+[0.357s] [35m[1mConsolidate compiler generated dependencies of target trajectory_saver_lib[0m
+[0.427s] [ 66%] Built target trajectory_tools
+[0.449s] [ 71%] Built target trajectory_saver_lib
+[0.502s] [ 74%] Built target trajectory_tools__py
+[0.563s] [ 76%] [32mBuilding CXX object CMakeFiles/trajectory_saver_node.dir/src/main_saver.cpp.o[0m
+[0.608s] [ 82%] Built target trajectory_tools__rosidl_generator_py
+[0.698s] [ 87%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c__pyext
+[0.704s] [ 92%] Built target trajectory_tools__rosidl_typesupport_c__pyext
+[0.719s] [ 97%] Built target trajectory_tools__rosidl_typesupport_introspection_c__pyext
+[1.401s] running egg_info
+[1.403s] writing trajectory_tools.egg-info/PKG-INFO
+[1.404s] writing dependency_links to trajectory_tools.egg-info/dependency_links.txt
+[1.405s] writing top-level names to trajectory_tools.egg-info/top_level.txt
+[1.414s] reading manifest file 'trajectory_tools.egg-info/SOURCES.txt'
+[1.417s] writing manifest file 'trajectory_tools.egg-info/SOURCES.txt'
+[1.490s] [01m[K/home/dd/trajectory_tools/src/main_saver.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Ktrajectory_saver.hpp: No such file or directory
+[1.491s]    13 | #include [01;31m[K"trajectory_saver.hpp"[m[K  // or whatever your class header is
+[1.492s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.492s] compilation terminated.
+[1.500s] gmake[2]: *** [CMakeFiles/trajectory_saver_node.dir/build.make:76: CMakeFiles/trajectory_saver_node.dir/src/main_saver.cpp.o] Error 1
+[1.501s] gmake[1]: *** [CMakeFiles/Makefile2:627: CMakeFiles/trajectory_saver_node.dir/all] Error 2
+[1.501s] gmake[1]: *** Waiting for unfinished jobs....
+[1.539s] [ 97%] Built target ament_cmake_python_build_trajectory_tools_egg
+[1.542s] gmake: *** [Makefile:146: all] Error 2
+[1.551s] Invoked command in '/home/dd/trajectory_tools/build/trajectory_tools' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dd/trajectory_tools/build/trajectory_tools -- -j8 -l8

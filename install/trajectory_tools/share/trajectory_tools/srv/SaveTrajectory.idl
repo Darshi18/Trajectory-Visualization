@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from trajectory_tools/srv/SaveTrajectory.srv
+// generated code does not contain a copyright notice
+
+
+module trajectory_tools {
+  module srv {
+    struct SaveTrajectory_Request {
+      string filename;
+
+      double duration_sec;
+    };
+    struct SaveTrajectory_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.000422] (trajectory_tools) JobQueued: {'identifier': 'trajectory_tools', 'dependencies': OrderedDict()}
+[0.000820] (trajectory_tools) JobStarted: {'identifier': 'trajectory_tools'}
+[0.011201] (trajectory_tools) JobProgress: {'identifier': 'trajectory_tools', 'progress': 'cmake'}
+[0.011978] (trajectory_tools) JobProgress: {'identifier': 'trajectory_tools', 'progress': 'build'}
+[0.013152] (trajectory_tools) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dd/trajectory_tools/build/trajectory_tools', '--', '-j8', '-l8'], 'cwd': '/home/dd/trajectory_tools/build/trajectory_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dd'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dd/trajectory_tools/install/trajectory_tools/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dd'), ('OLDPWD', '/home/dd/trajectory_tools/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1688'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dd/trajectory_tools/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dd-HP-Laptop-15-bs1xx:@/tmp/.ICE-unix/1660,unix/dd-HP-Laptop-15-bs1xx:/tmp/.ICE-unix/1660'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6f56fa01_267f_4174_acc4_48b51afd995f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.B2ZN62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dd/trajectory_tools/install/trajectory_tools:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dd/trajectory_tools/build/trajectory_tools'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dd/trajectory_tools/install/trajectory_tools/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dd/trajectory_tools/install/trajectory_tools:/opt/ros/humble')]), 'shell': False}
+[0.097366] (trajectory_tools) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/trajectory_reader_lib.dir/src/trajectory_reader.cpp.o\x1b[0m\n'}
+[0.097748] (trajectory_tools) StdoutLine: {'line': b'[  5%] Built target trajectory_tools__cpp\n'}
+[0.099992] (-) TimerEvent: {}
+[0.108451] (trajectory_tools) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/trajectory_saver_lib.dir/src/trajectory_saver.cpp.o\x1b[0m\n'}
+[0.108852] (trajectory_tools) StdoutLine: {'line': b'[ 15%] Built target trajectory_tools__rosidl_generator_c\n'}
+[0.123381] (trajectory_tools) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_copy_trajectory_tools\n'}
+[0.152224] (trajectory_tools) StdoutLine: {'line': b'[ 23%] Built target trajectory_tools__rosidl_typesupport_introspection_cpp\n'}
+[0.152707] (trajectory_tools) StdoutLine: {'line': b'[ 30%] Built target trajectory_tools__rosidl_typesupport_cpp\n'}
+[0.162944] (trajectory_tools) StdoutLine: {'line': b'[ 38%] Built target trajectory_tools__rosidl_typesupport_fastrtps_cpp\n'}
+[0.166931] (trajectory_tools) StdoutLine: {'line': b'[ 53%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c\n'}
+[0.167239] (trajectory_tools) StdoutLine: {'line': b'[ 53%] Built target trajectory_tools__rosidl_typesupport_introspection_c\n'}
+[0.174326] (trajectory_tools) StdoutLine: {'line': b'[ 61%] Built target trajectory_tools__rosidl_typesupport_c\n'}
+[0.200403] (-) TimerEvent: {}
+[0.216122] (trajectory_tools) StdoutLine: {'line': b'[ 61%] Built target trajectory_tools\n'}
+[0.266118] (trajectory_tools) StdoutLine: {'line': b'[ 64%] Built target trajectory_tools__py\n'}
+[0.300513] (-) TimerEvent: {}
+[0.310496] (trajectory_tools) StdoutLine: {'line': b'[ 69%] Built target trajectory_tools__rosidl_generator_py\n'}
+[0.360622] (trajectory_tools) StdoutLine: {'line': b'[ 74%] Built target trajectory_tools__rosidl_typesupport_c__pyext\n'}
+[0.365125] (trajectory_tools) StdoutLine: {'line': b'[ 79%] Built target trajectory_tools__rosidl_typesupport_introspection_c__pyext\n'}
+[0.365541] (trajectory_tools) StdoutLine: {'line': b'[ 84%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.400641] (-) TimerEvent: {}
+[0.500896] (-) TimerEvent: {}
+[0.601178] (-) TimerEvent: {}
+[0.620727] (trajectory_tools) StdoutLine: {'line': b'running egg_info\n'}
+[0.622673] (trajectory_tools) StdoutLine: {'line': b'writing trajectory_tools.egg-info/PKG-INFO\n'}
+[0.623146] (trajectory_tools) StdoutLine: {'line': b'writing dependency_links to trajectory_tools.egg-info/dependency_links.txt\n'}
+[0.623561] (trajectory_tools) StdoutLine: {'line': b'writing top-level names to trajectory_tools.egg-info/top_level.txt\n'}
+[0.627466] (trajectory_tools) StdoutLine: {'line': b"reading manifest file 'trajectory_tools.egg-info/SOURCES.txt'\n"}
+[0.629185] (trajectory_tools) StdoutLine: {'line': b"writing manifest file 'trajectory_tools.egg-info/SOURCES.txt'\n"}
+[0.679266] (trajectory_tools) StdoutLine: {'line': b'[ 84%] Built target ament_cmake_python_build_trajectory_tools_egg\n'}
+[0.701278] (-) TimerEvent: {}
+[0.801599] (-) TimerEvent: {}
+[0.901924] (-) TimerEvent: {}
+[1.002398] (-) TimerEvent: {}
+[1.102891] (-) TimerEvent: {}
+[1.203528] (-) TimerEvent: {}
+[1.304019] (-) TimerEvent: {}
+[1.404374] (-) TimerEvent: {}
+[1.504827] (-) TimerEvent: {}
+[1.605126] (-) TimerEvent: {}
+[1.705413] (-) TimerEvent: {}
+[1.793470] (trajectory_tools) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:1\x1b[m\x1b[K:\n'}
+[1.793672] (trajectory_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dd/trajectory_tools/include/trajectory_tools/trajectory_saver.hpp:8:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktrajectory_tools/srv/save_trajectory.hpp: No such file or directory\n'}
+[1.793764] (trajectory_tools) StderrLine: {'line': b'    8 | #include \x1b[01;31m\x1b[K"trajectory_tools/srv/save_trajectory.hpp"\x1b[m\x1b[K\n'}
+[1.793860] (trajectory_tools) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.793933] (trajectory_tools) StderrLine: {'line': b'compilation terminated.\n'}
+[1.797100] (trajectory_tools) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/trajectory_saver_lib.dir/build.make:76: CMakeFiles/trajectory_saver_lib.dir/src/trajectory_saver.cpp.o] Error 1\n'}
+[1.797572] (trajectory_tools) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:598: CMakeFiles/trajectory_saver_lib.dir/all] Error 2\n'}
+[1.797684] (trajectory_tools) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.805549] (-) TimerEvent: {}
+[1.905880] (-) TimerEvent: {}
+[2.006140] (-) TimerEvent: {}
+[2.106456] (-) TimerEvent: {}
+[2.206761] (-) TimerEvent: {}
+[2.307040] (-) TimerEvent: {}
+[2.407339] (-) TimerEvent: {}
+[2.507645] (-) TimerEvent: {}
+[2.607908] (-) TimerEvent: {}
+[2.708217] (-) TimerEvent: {}
+[2.808523] (-) TimerEvent: {}
+[2.908855] (-) TimerEvent: {}
+[3.009150] (-) TimerEvent: {}
+[3.109490] (-) TimerEvent: {}
+[3.209815] (-) TimerEvent: {}
+[3.310100] (-) TimerEvent: {}
+[3.410442] (-) TimerEvent: {}
+[3.510814] (-) TimerEvent: {}
+[3.611117] (-) TimerEvent: {}
+[3.711531] (-) TimerEvent: {}
+[3.811856] (-) TimerEvent: {}
+[3.912153] (-) TimerEvent: {}
+[4.012456] (-) TimerEvent: {}
+[4.112762] (-) TimerEvent: {}
+[4.213077] (-) TimerEvent: {}
+[4.313471] (-) TimerEvent: {}
+[4.413923] (-) TimerEvent: {}
+[4.514520] (-) TimerEvent: {}
+[4.614951] (-) TimerEvent: {}
+[4.715388] (-) TimerEvent: {}
+[4.815920] (-) TimerEvent: {}
+[4.916330] (-) TimerEvent: {}
+[5.016672] (-) TimerEvent: {}
+[5.116960] (-) TimerEvent: {}
+[5.195733] (trajectory_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TrajectoryReader::publishMarkers()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.196169] (trajectory_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:57:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::msg::Marker_<std::allocator<void> >::_color_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::ColorRGBA_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[5.196323] (trajectory_tools) StderrLine: {'line': b'   57 |     marker.color = {1.0, 0.0, 0.0, 1.0\x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[5.196434] (trajectory_tools) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.196550] (trajectory_tools) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:27\x1b[m\x1b[K,\n'}
+[5.196638] (trajectory_tools) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp:20\x1b[m\x1b[K,\n'}
+[5.196739] (trajectory_tools) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp:7\x1b[m\x1b[K,\n'}
+[5.196847] (trajectory_tools) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dd/trajectory_tools/include/trajectory_tools/trajectory_reader.hpp:6\x1b[m\x1b[K,\n'}
+[5.196965] (trajectory_tools) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:1\x1b[m\x1b[K:\n'}
+[5.197044] (trajectory_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std_msgs::msg::ColorRGBA_<std::allocator<void> >& std_msgs::msg::ColorRGBA_<std::allocator<void> >::operator=(const std_msgs::msg::ColorRGBA_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.197141] (trajectory_tools) StderrLine: {'line': b'   32 | struct \x1b[01;36m\x1b[KColorRGBA_\x1b[m\x1b[K\n'}
+[5.197221] (trajectory_tools) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.197367] (trajectory_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::ColorRGBA_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.197467] (trajectory_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std_msgs::msg::ColorRGBA_<std::allocator<void> >& std_msgs::msg::ColorRGBA_<std::allocator<void> >::operator=(std_msgs::msg::ColorRGBA_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.197555] (trajectory_tools) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::ColorRGBA_<std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.217098] (-) TimerEvent: {}
+[5.317431] (-) TimerEvent: {}
+[5.417956] (-) TimerEvent: {}
+[5.518276] (-) TimerEvent: {}
+[5.618563] (-) TimerEvent: {}
+[5.718912] (-) TimerEvent: {}
+[5.819247] (-) TimerEvent: {}
+[5.919566] (-) TimerEvent: {}
+[6.019884] (-) TimerEvent: {}
+[6.120182] (-) TimerEvent: {}
+[6.220547] (-) TimerEvent: {}
+[6.287552] (trajectory_tools) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/trajectory_reader_lib.dir/build.make:76: CMakeFiles/trajectory_reader_lib.dir/src/trajectory_reader.cpp.o] Error 1\n'}
+[6.287763] (trajectory_tools) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:624: CMakeFiles/trajectory_reader_lib.dir/all] Error 2\n'}
+[6.288115] (trajectory_tools) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.291131] (trajectory_tools) CommandEnded: {'returncode': 2}
+[6.308929] (trajectory_tools) JobEnded: {'identifier': 'trajectory_tools', 'rc': 2}
+[6.319390] (-) EventReactorShutdown: {}

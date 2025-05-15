@@ -1,0 +1,52 @@
+[0.015s] Invoking command in '/home/dd/trajectory_tools/build/trajectory_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dd/trajectory_tools/build/trajectory_tools -- -j8 -l8
+[0.097s] [  2%] [32mBuilding CXX object CMakeFiles/trajectory_reader_lib.dir/src/trajectory_reader.cpp.o[0m
+[0.097s] [  5%] Built target trajectory_tools__cpp
+[0.108s] [  7%] [32mBuilding CXX object CMakeFiles/trajectory_saver_lib.dir/src/trajectory_saver.cpp.o[0m
+[0.108s] [ 15%] Built target trajectory_tools__rosidl_generator_c
+[0.123s] [ 15%] Built target ament_cmake_python_copy_trajectory_tools
+[0.151s] [ 23%] Built target trajectory_tools__rosidl_typesupport_introspection_cpp
+[0.152s] [ 30%] Built target trajectory_tools__rosidl_typesupport_cpp
+[0.162s] [ 38%] Built target trajectory_tools__rosidl_typesupport_fastrtps_cpp
+[0.166s] [ 53%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c
+[0.166s] [ 53%] Built target trajectory_tools__rosidl_typesupport_introspection_c
+[0.173s] [ 61%] Built target trajectory_tools__rosidl_typesupport_c
+[0.215s] [ 61%] Built target trajectory_tools
+[0.265s] [ 64%] Built target trajectory_tools__py
+[0.310s] [ 69%] Built target trajectory_tools__rosidl_generator_py
+[0.360s] [ 74%] Built target trajectory_tools__rosidl_typesupport_c__pyext
+[0.364s] [ 79%] Built target trajectory_tools__rosidl_typesupport_introspection_c__pyext
+[0.365s] [ 84%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c__pyext
+[0.620s] running egg_info
+[0.622s] writing trajectory_tools.egg-info/PKG-INFO
+[0.622s] writing dependency_links to trajectory_tools.egg-info/dependency_links.txt
+[0.623s] writing top-level names to trajectory_tools.egg-info/top_level.txt
+[0.627s] reading manifest file 'trajectory_tools.egg-info/SOURCES.txt'
+[0.628s] writing manifest file 'trajectory_tools.egg-info/SOURCES.txt'
+[0.678s] [ 84%] Built target ament_cmake_python_build_trajectory_tools_egg
+[1.793s] In file included from [01m[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:1[m[K:
+[1.793s] [01m[K/home/dd/trajectory_tools/include/trajectory_tools/trajectory_saver.hpp:8:10:[m[K [01;31m[Kfatal error: [m[Ktrajectory_tools/srv/save_trajectory.hpp: No such file or directory
+[1.793s]     8 | #include [01;31m[K"trajectory_tools/srv/save_trajectory.hpp"[m[K
+[1.793s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.793s] compilation terminated.
+[1.796s] gmake[2]: *** [CMakeFiles/trajectory_saver_lib.dir/build.make:76: CMakeFiles/trajectory_saver_lib.dir/src/trajectory_saver.cpp.o] Error 1
+[1.797s] gmake[1]: *** [CMakeFiles/Makefile2:598: CMakeFiles/trajectory_saver_lib.dir/all] Error 2
+[1.797s] gmake[1]: *** Waiting for unfinished jobs....
+[5.195s] [01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryReader::publishMarkers()[m[K’:
+[5.195s] [01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:57:39:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kvisualization_msgs::msg::Marker_<std::allocator<void> >::_color_type[m[K’ {aka ‘[01m[Kstd_msgs::msg::ColorRGBA_<std::allocator<void> >[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+[5.195s]    57 |     marker.color = {1.0, 0.0, 0.0, 1.0[01;31m[K}[m[K;
+[5.195s]       |                                       [01;31m[K^[m[K
+[5.196s] In file included from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:27[m[K,
+[5.196s]                  from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp:20[m[K,
+[5.196s]                  from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp:7[m[K,
+[5.196s]                  from [01m[K/home/dd/trajectory_tools/include/trajectory_tools/trajectory_reader.hpp:6[m[K,
+[5.196s]                  from [01m[K/home/dd/trajectory_tools/src/trajectory_reader.cpp:1[m[K:
+[5.196s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::ColorRGBA_<std::allocator<void> >& std_msgs::msg::ColorRGBA_<std::allocator<void> >::operator=(const std_msgs::msg::ColorRGBA_<std::allocator<void> >&)[m[K’
+[5.196s]    32 | struct [01;36m[KColorRGBA_[m[K
+[5.196s]       |        [01;36m[K^~~~~~~~~~[m[K
+[5.196s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst std_msgs::msg::ColorRGBA_<std::allocator<void> >&[m[K’
+[5.196s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::ColorRGBA_<std::allocator<void> >& std_msgs::msg::ColorRGBA_<std::allocator<void> >::operator=(std_msgs::msg::ColorRGBA_<std::allocator<void> >&&)[m[K’
+[5.197s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd_msgs::msg::ColorRGBA_<std::allocator<void> >&&[m[K’
+[6.287s] gmake[2]: *** [CMakeFiles/trajectory_reader_lib.dir/build.make:76: CMakeFiles/trajectory_reader_lib.dir/src/trajectory_reader.cpp.o] Error 1
+[6.287s] gmake[1]: *** [CMakeFiles/Makefile2:624: CMakeFiles/trajectory_reader_lib.dir/all] Error 2
+[6.287s] gmake: *** [Makefile:146: all] Error 2
+[6.290s] Invoked command in '/home/dd/trajectory_tools/build/trajectory_tools' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dd/trajectory_tools/build/trajectory_tools -- -j8 -l8

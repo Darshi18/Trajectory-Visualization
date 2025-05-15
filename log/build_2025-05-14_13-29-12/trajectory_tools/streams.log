@@ -1,0 +1,36 @@
+[0.034s] Invoking command in '/home/dd/trajectory_tools/build/trajectory_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dd/trajectory_tools/build/trajectory_tools -- -j8 -l8
+[0.191s] [  2%] Built target trajectory_tools__cpp
+[0.203s] [ 10%] Built target trajectory_tools__rosidl_generator_c
+[0.267s] [ 15%] Built target trajectory_reader_lib
+[0.291s] [ 15%] Built target ament_cmake_python_copy_trajectory_tools
+[0.326s] [ 23%] Built target trajectory_tools__rosidl_typesupport_introspection_cpp
+[0.361s] [ 30%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c
+[0.364s] [ 38%] Built target trajectory_tools__rosidl_typesupport_fastrtps_cpp
+[0.365s] [ 46%] Built target trajectory_tools__rosidl_typesupport_cpp
+[0.379s] [ 53%] Built target trajectory_tools__rosidl_typesupport_c
+[0.395s] [ 61%] Built target trajectory_tools__rosidl_typesupport_introspection_c
+[0.425s] [ 66%] Built target trajectory_reader_node
+[0.476s] [ 66%] Built target trajectory_tools
+[0.480s] [ 69%] [32mBuilding CXX object CMakeFiles/trajectory_saver_lib.dir/src/trajectory_saver.cpp.o[0m
+[0.550s] [ 71%] Built target trajectory_tools__py
+[0.632s] [ 76%] Built target trajectory_tools__rosidl_generator_py
+[0.727s] [ 82%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c__pyext
+[0.728s] [ 87%] Built target trajectory_tools__rosidl_typesupport_c__pyext
+[0.744s] [ 92%] Built target trajectory_tools__rosidl_typesupport_introspection_c__pyext
+[1.356s] running egg_info
+[1.359s] writing trajectory_tools.egg-info/PKG-INFO
+[1.360s] writing dependency_links to trajectory_tools.egg-info/dependency_links.txt
+[1.361s] writing top-level names to trajectory_tools.egg-info/top_level.txt
+[1.370s] reading manifest file 'trajectory_tools.egg-info/SOURCES.txt'
+[1.373s] writing manifest file 'trajectory_tools.egg-info/SOURCES.txt'
+[1.480s] [ 92%] Built target ament_cmake_python_build_trajectory_tools_egg
+[27.891s] [ 94%] [32m[1mLinking CXX shared library libtrajectory_saver_lib.so[0m
+[29.764s] [ 94%] Built target trajectory_saver_lib
+[29.832s] [ 97%] [32m[1mLinking CXX executable trajectory_saver_node[0m
+[30.253s] /usr/bin/ld: CMakeFiles/trajectory_saver_node.dir/src/main_saver.cpp.o: in function `void __gnu_cxx::new_allocator<TrajectorySaver>::construct<TrajectorySaver>(TrajectorySaver*)':
+[30.253s] main_saver.cpp:(.text._ZN9__gnu_cxx13new_allocatorI15TrajectorySaverE9constructIS1_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI15TrajectorySaverE9constructIS1_JEEEvPT_DpOT0_]+0x31): undefined reference to `TrajectorySaver::TrajectorySaver()'
+[30.272s] collect2: error: ld returned 1 exit status
+[30.275s] gmake[2]: *** [CMakeFiles/trajectory_saver_node.dir/build.make:224: trajectory_saver_node] Error 1
+[30.276s] gmake[1]: *** [CMakeFiles/Makefile2:627: CMakeFiles/trajectory_saver_node.dir/all] Error 2
+[30.278s] gmake: *** [Makefile:146: all] Error 2
+[30.286s] Invoked command in '/home/dd/trajectory_tools/build/trajectory_tools' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dd/trajectory_tools/build/trajectory_tools -- -j8 -l8

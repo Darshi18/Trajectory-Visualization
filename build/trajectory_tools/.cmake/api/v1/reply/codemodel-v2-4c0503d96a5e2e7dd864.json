@@ -1,0 +1,269 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0d11224afe6bf05cd097.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "trajectory_tools__py",
+					"jsonFile" : "directory-trajectory_tools__py-b33093189551aa7b96bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "build/trajectory_tools/trajectory_tools__py",
+					"targetIndexes" : 
+					[
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "trajectory_tools",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_trajectory_tools_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_trajectory_tools_egg-cbb2b012fc73f5ea19f0.json",
+					"name" : "ament_cmake_python_build_trajectory_tools_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_trajectory_tools::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_trajectory_tools-6b568715340ea32c6def.json",
+					"name" : "ament_cmake_python_copy_trajectory_tools",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_reader_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_reader_lib-1d0556eb7f823843c241.json",
+					"name" : "trajectory_reader_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_reader_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_reader_node-5e852301f37ac571d520.json",
+					"name" : "trajectory_reader_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_saver_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_saver_lib-af80e5d15b2bd1d66f8c.json",
+					"name" : "trajectory_saver_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_saver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_saver_node-3c7f261792a941c75ba9.json",
+					"name" : "trajectory_saver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_tools::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_tools-c08b4b64189959486ba1.json",
+					"name" : "trajectory_tools",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_tools__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_tools__cpp-0b405c304a5f77310bdb.json",
+					"name" : "trajectory_tools__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "trajectory_tools__py::@08052ee42cf5da0c9b93",
+					"jsonFile" : "target-trajectory_tools__py-b25d35bdb7942029aa03.json",
+					"name" : "trajectory_tools__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_tools__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_tools__rosidl_generator_c-93554355db8ed952f676.json",
+					"name" : "trajectory_tools__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_tools__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_tools__rosidl_generator_py-0d19344391f5e09447fe.json",
+					"name" : "trajectory_tools__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_tools__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_tools__rosidl_typesupport_c-eb4d77bec82b904d74a6.json",
+					"name" : "trajectory_tools__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_tools__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_tools__rosidl_typesupport_c__pyext-4fadea7c3467ef54d4e1.json",
+					"name" : "trajectory_tools__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_tools__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_tools__rosidl_typesupport_cpp-d2e67584ad92eee06fa4.json",
+					"name" : "trajectory_tools__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_tools__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_tools__rosidl_typesupport_fastrtps_c-e3c35b9ebd5c4605cb2c.json",
+					"name" : "trajectory_tools__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_tools__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_tools__rosidl_typesupport_fastrtps_c__pyext-a5ceec574800d0b40f3b.json",
+					"name" : "trajectory_tools__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_tools__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_tools__rosidl_typesupport_fastrtps_cpp-2c335145d104a0a08066.json",
+					"name" : "trajectory_tools__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_tools__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_tools__rosidl_typesupport_introspection_c-4dc452095826fe68dd5e.json",
+					"name" : "trajectory_tools__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_tools__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_tools__rosidl_typesupport_introspection_c__pyext-223f5297a486a2f8095b.json",
+					"name" : "trajectory_tools__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_tools__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_tools__rosidl_typesupport_introspection_cpp-8234b0cfa0de6c2584b1.json",
+					"name" : "trajectory_tools__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_tools_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_tools_uninstall-ca781672d47b4ab11747.json",
+					"name" : "trajectory_tools_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a6b305b8e8bd8294d578.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dd/trajectory_tools/build/trajectory_tools",
+		"source" : "/home/dd/trajectory_tools"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

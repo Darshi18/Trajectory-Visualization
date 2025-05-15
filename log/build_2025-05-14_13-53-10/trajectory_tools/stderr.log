@@ -1,0 +1,36 @@
+[01m[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:16:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass TrajectorySaver[m[K’
+   16 | class [01;31m[KTrajectorySaver[m[K : public rclcpp::Node
+      |       [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:11[m[K:
+[01m[K/home/dd/trajectory_tools/include/trajectory_tools/trajectory_saver.hpp:13:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass TrajectorySaver[m[K’
+   13 | class [01;36m[KTrajectorySaver[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/string:41[m[K,
+                 from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/11/ios:42[m[K,
+                 from [01m[K/usr/include/c++/11/istream:38[m[K,
+                 from [01m[K/usr/include/c++/11/fstream:38[m[K,
+                 from [01m[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:2[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = TrajectorySaver; _Args = {rclcpp::NodeOptions}; _Tp = TrajectorySaver][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = TrajectorySaver; _Args = {rclcpp::NodeOptions}; _Tp = TrajectorySaver; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<TrajectorySaver>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {rclcpp::NodeOptions}; _Tp = TrajectorySaver; _Alloc = std::allocator<TrajectorySaver>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = TrajectorySaver; _Alloc = std::allocator<TrajectorySaver>; _Args = {rclcpp::NodeOptions}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<TrajectorySaver>; _Args = {rclcpp::NodeOptions}; _Tp = TrajectorySaver; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<TrajectorySaver>; _Args = {rclcpp::NodeOptions}; _Tp = TrajectorySaver][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = TrajectorySaver; _Alloc = std::allocator<TrajectorySaver>; _Args = {rclcpp::NodeOptions}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = TrajectorySaver; _Args = {rclcpp::NodeOptions}][m[K’
+[01m[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:87:51:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTrajectorySaver::TrajectorySaver(rclcpp::NodeOptions)[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/dd/trajectory_tools/src/trajectory_saver.cpp:11[m[K:
+[01m[K/home/dd/trajectory_tools/include/trajectory_tools/trajectory_saver.hpp:16:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KTrajectorySaver::TrajectorySaver()[m[K’
+   16 |     [01;36m[KTrajectorySaver[m[K();
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/dd/trajectory_tools/include/trajectory_tools/trajectory_saver.hpp:16:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/trajectory_saver_lib.dir/build.make:76: CMakeFiles/trajectory_saver_lib.dir/src/trajectory_saver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:599: CMakeFiles/trajectory_saver_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

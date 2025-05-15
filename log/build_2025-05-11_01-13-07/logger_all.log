@@ -1,0 +1,111 @@
+[0.331s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.331s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d6a4546df60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d6a4546d8d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d6a4546d8d0>>, mixin_verb=('build',))
+[1.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.892s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dd/trajectory_tools'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.981s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'trajectory_tools'
+[1.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.037s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.037s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.047s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 448 installed packages in /opt/ros/humble
+[2.050s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.176s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tools' build argument 'cmake_args' from command line to 'None'
+[2.176s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tools' build argument 'cmake_target' from command line to 'None'
+[2.177s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.177s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[2.177s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tools' build argument 'cmake_clean_first' from command line to 'False'
+[2.177s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tools' build argument 'cmake_force_configure' from command line to 'False'
+[2.177s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tools' build argument 'ament_cmake_args' from command line to 'None'
+[2.177s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[2.177s] Level 5:colcon.colcon_core.verb:set package 'trajectory_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.177s] DEBUG:colcon.colcon_core.verb:Building package 'trajectory_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dd/trajectory_tools/build/trajectory_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dd/trajectory_tools/install/trajectory_tools', 'merge_install': False, 'path': '/home/dd/trajectory_tools', 'symlink_install': False, 'test_result_base': None}
+[2.177s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.179s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.179s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dd/trajectory_tools' with build type 'ament_cmake'
+[2.179s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dd/trajectory_tools'
+[2.183s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.184s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.184s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dd/trajectory_tools/build/trajectory_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dd/trajectory_tools/build/trajectory_tools -- -j8 -l8
+[23.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dd/trajectory_tools/build/trajectory_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dd/trajectory_tools/build/trajectory_tools -- -j8 -l8
+[23.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dd/trajectory_tools/build/trajectory_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dd/trajectory_tools/build/trajectory_tools
+[23.999s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trajectory_tools)
+[24.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dd/trajectory_tools/build/trajectory_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dd/trajectory_tools/build/trajectory_tools
+[24.060s] Level 1:colcon.colcon_core.environment:checking '/home/dd/trajectory_tools/install/trajectory_tools' for CMake module files
+[24.062s] Level 1:colcon.colcon_core.environment:checking '/home/dd/trajectory_tools/install/trajectory_tools' for CMake config files
+[24.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('trajectory_tools', 'cmake_prefix_path')
+[24.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/hook/cmake_prefix_path.ps1'
+[24.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/hook/cmake_prefix_path.dsv'
+[24.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/hook/cmake_prefix_path.sh'
+[24.098s] Level 1:colcon.colcon_core.environment:checking '/home/dd/trajectory_tools/install/trajectory_tools/lib'
+[24.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('trajectory_tools', 'ld_library_path_lib')
+[24.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/hook/ld_library_path_lib.ps1'
+[24.100s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/hook/ld_library_path_lib.dsv'
+[24.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/hook/ld_library_path_lib.sh'
+[24.101s] Level 1:colcon.colcon_core.environment:checking '/home/dd/trajectory_tools/install/trajectory_tools/bin'
+[24.101s] Level 1:colcon.colcon_core.environment:checking '/home/dd/trajectory_tools/install/trajectory_tools/lib/pkgconfig/trajectory_tools.pc'
+[24.102s] Level 1:colcon.colcon_core.environment:checking '/home/dd/trajectory_tools/install/trajectory_tools/lib/python3.10/site-packages'
+[24.102s] Level 1:colcon.colcon_core.environment:checking '/home/dd/trajectory_tools/install/trajectory_tools/bin'
+[24.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/package.ps1'
+[24.107s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/package.dsv'
+[24.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/package.sh'
+[24.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/package.bash'
+[24.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/package.zsh'
+[24.136s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dd/trajectory_tools/install/trajectory_tools/share/colcon-core/packages/trajectory_tools)
+[24.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trajectory_tools)
+[24.139s] Level 1:colcon.colcon_core.environment:checking '/home/dd/trajectory_tools/install/trajectory_tools' for CMake module files
+[24.140s] Level 1:colcon.colcon_core.environment:checking '/home/dd/trajectory_tools/install/trajectory_tools' for CMake config files
+[24.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('trajectory_tools', 'cmake_prefix_path')
+[24.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/hook/cmake_prefix_path.ps1'
+[24.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/hook/cmake_prefix_path.dsv'
+[24.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/hook/cmake_prefix_path.sh'
+[24.142s] Level 1:colcon.colcon_core.environment:checking '/home/dd/trajectory_tools/install/trajectory_tools/lib'
+[24.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('trajectory_tools', 'ld_library_path_lib')
+[24.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/hook/ld_library_path_lib.ps1'
+[24.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/hook/ld_library_path_lib.dsv'
+[24.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/hook/ld_library_path_lib.sh'
+[24.144s] Level 1:colcon.colcon_core.environment:checking '/home/dd/trajectory_tools/install/trajectory_tools/bin'
+[24.144s] Level 1:colcon.colcon_core.environment:checking '/home/dd/trajectory_tools/install/trajectory_tools/lib/pkgconfig/trajectory_tools.pc'
+[24.145s] Level 1:colcon.colcon_core.environment:checking '/home/dd/trajectory_tools/install/trajectory_tools/lib/python3.10/site-packages'
+[24.145s] Level 1:colcon.colcon_core.environment:checking '/home/dd/trajectory_tools/install/trajectory_tools/bin'
+[24.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/package.ps1'
+[24.146s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/package.dsv'
+[24.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/package.sh'
+[24.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/package.bash'
+[24.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/dd/trajectory_tools/install/trajectory_tools/share/trajectory_tools/package.zsh'
+[24.149s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dd/trajectory_tools/install/trajectory_tools/share/colcon-core/packages/trajectory_tools)
+[24.149s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[24.150s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[24.151s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[24.151s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[24.179s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[24.179s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[24.179s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[24.207s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[24.207s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dd/trajectory_tools/install/local_setup.ps1'
+[24.209s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dd/trajectory_tools/install/_local_setup_util_ps1.py'
+[24.211s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dd/trajectory_tools/install/setup.ps1'
+[24.213s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dd/trajectory_tools/install/local_setup.sh'
+[24.215s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dd/trajectory_tools/install/_local_setup_util_sh.py'
+[24.217s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dd/trajectory_tools/install/setup.sh'
+[24.220s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dd/trajectory_tools/install/local_setup.bash'
+[24.221s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dd/trajectory_tools/install/setup.bash'
+[24.223s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dd/trajectory_tools/install/local_setup.zsh'
+[24.225s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dd/trajectory_tools/install/setup.zsh'

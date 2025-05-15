@@ -1,0 +1,25 @@
+[  2%] Built target trajectory_tools__cpp
+[ 10%] Built target trajectory_tools__rosidl_generator_c
+[ 17%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c
+[ 25%] Built target trajectory_tools__rosidl_typesupport_introspection_c
+[ 33%] Built target trajectory_tools__rosidl_typesupport_c
+[ 41%] Built target trajectory_tools__rosidl_typesupport_cpp
+[ 48%] Built target trajectory_tools__rosidl_typesupport_introspection_cpp
+[ 56%] Built target trajectory_tools__rosidl_typesupport_fastrtps_cpp
+[ 58%] [32mBuilding CXX object CMakeFiles/trajectory_reader_lib.dir/src/trajectory_reader.cpp.o[0m
+[ 58%] Built target trajectory_tools
+[ 61%] Built target trajectory_tools__py
+[35m[1mConsolidate compiler generated dependencies of target trajectory_saver_lib[0m
+[ 64%] Built target ament_cmake_python_copy_trajectory_tools
+[ 64%] [32mBuilding CXX object CMakeFiles/trajectory_saver_lib.dir/src/trajectory_saver.cpp.o[0m
+[ 69%] Built target trajectory_tools__rosidl_generator_py
+[ 74%] Built target trajectory_tools__rosidl_typesupport_fastrtps_c__pyext
+[ 79%] Built target trajectory_tools__rosidl_typesupport_c__pyext
+[ 84%] Built target trajectory_tools__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing trajectory_tools.egg-info/PKG-INFO
+writing dependency_links to trajectory_tools.egg-info/dependency_links.txt
+writing top-level names to trajectory_tools.egg-info/top_level.txt
+reading manifest file 'trajectory_tools.egg-info/SOURCES.txt'
+writing manifest file 'trajectory_tools.egg-info/SOURCES.txt'
+[ 84%] Built target ament_cmake_python_build_trajectory_tools_egg

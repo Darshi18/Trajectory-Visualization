@@ -1,0 +1,92 @@
+#include "trajectory_tools/trajectory_reader.hpp"
+#include <fstream>
+#include <sstream>
+
+TrajectoryReader::TrajectoryReader() : Node("trajectory_reader")
+{
+    marker_pub_ = this->create_publisher<visualization_msgs::msg::MarkerArray>("saved_trajectory_markers", 10);
+
+    // TODO: Replace with config or param later
+    loadTrajectoryFromCSV("/home/dd/trajectory_tools/data/trajectory.csv");
+    
+    if (trajectory_.empty()) {
+            RCLCPP_WARN(this->get_logger(), "No trajectory data loaded from CSV file.");
+        } else {
+            RCLCPP_INFO(this->get_logger(), "Loaded %zu trajectory points.", trajectory_.size());
+        }
+
+        // Publish markers periodically, not only once
+        timer_ = this->create_wall_timer(std::chrono::milliseconds(500),
+                                         std::bind(&TrajectoryReader::publishMarkers, this));
+
+    /*timer_ = this->create_wall_timer(
+        std::chrono::milliseconds(500),
+        std::bind(&TrajectoryReader::publishMarkers, this));*/
+}
+
+void TrajectoryReader::loadTrajectoryFromCSV(const std::string &filename)
+{
+    std::ifstream file(filename);
+    std::string line;
+
+    if (!file.is_open()) {
+        RCLCPP_ERROR(this->get_logger(), "Failed to open file: %s", filename.c_str());
+        return;
+    }
+
+    while (std::getline(file, line))
+    {
+        std::istringstream ss(line);
+        std::string sec, x_str, y_str, z_str;
+
+        if (!std::getline(ss, sec, ',') || !std::getline(ss, x_str, ',') || 
+            !std::getline(ss, y_str, ',') || !std::getline(ss, z_str, ',')) {
+            continue;
+        }
+
+        geometry_msgs::msg::PoseStamped pose;
+        pose.pose.position.x = std::stod(x_str);
+        pose.pose.position.y = std::stod(y_str);
+        pose.pose.position.z = std::stod(z_str);
+
+        trajectory_.push_back(pose);
+    }
+}
+
+void TrajectoryReader::publishMarkers()
+{
+    visualization_msgs::msg::MarkerArray marker_array;
+    visualization_msgs::msg::Marker marker;
+    marker.header.frame_id = "odom";
+    marker.header.stamp = this->now();
+    marker.ns = "trajectory";
+    marker.id = 0;
+    marker.type = visualization_msgs::msg::Marker::LINE_STRIP;
+    marker.action = visualization_msgs::msg::Marker::ADD;
+    marker.scale.x = 0.02;
+    marker.color.r = 1.0;
+    marker.color.g = 0.0;
+    marker.color.b = 0.0;
+    marker.color.a = 1.0;
+    marker.points.clear();
+
+
+    for (const auto &pose : trajectory_)
+    {
+        geometry_msgs::msg::Point p;
+        p.x = pose.pose.position.x;
+        p.y = pose.pose.position.y;
+        p.z = pose.pose.position.z;
+        marker.points.push_back(p);
+    }
+    
+    marker_array.markers.push_back(marker);
+
+    if (!trajectory_.empty()) {
+            marker_pub_->publish(marker_array);
+            RCLCPP_INFO(this->get_logger(), "Published %zu trajectory points.", marker.points.size());
+        } else {
+            RCLCPP_WARN(this->get_logger(), "No trajectory points to publish.");
+        }
+    
+}

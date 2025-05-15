@@ -33,7 +33,7 @@ Run the trajectory reader node with a custom CSV file path:
     ros2 run trajectory_tools trajectory_reader_node \
       --ros-args -p trajectory_file:=/path/to/your/trajectory.csv
 
-    Replace /path/to/your/trajectory.csv with the full path to your CSV file.
+ Replace /path/to/your/trajectory.csv with the full path to your CSV file.
 
 Saving trajectory data
 
@@ -42,16 +42,16 @@ Run the trajectory saver node with the desired odometry topic and output file pa
     ros2 run trajectory_tools trajectory_saver_node \
       --ros-args -p odom_topic:=/odom -p output_file:=/path/to/save/trajectory.csv
 
-    Replace /path/to/save/trajectory.csv with the desired file output path.
+ Replace /path/to/save/trajectory.csv with the desired file output path.
 
 # Example
 
-ros2 run trajectory_tools trajectory_saver_node \
-  --ros-args -p odom_topic:=/odom \
-  -p output_file:=/home/dd/trajectory_tools/data/trajectory.csv
+   ros2 run trajectory_tools trajectory_saver_node \
+     --ros-args -p odom_topic:=/odom \
+     -p output_file:=/home/dd/trajectory_tools/data/trajectory.csv
 
-ros2 run trajectory_tools trajectory_reader_node \
-  --ros-args -p trajectory_file:=/home/dd/trajectory_tools/data/trajectory.csv
+   ros2 run trajectory_tools trajectory_reader_node \
+     --ros-args -p trajectory_file:=/home/dd/trajectory_tools/data/trajectory.csv
 
 # Notes
 

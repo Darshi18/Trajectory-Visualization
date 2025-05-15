@@ -1,14 +1,13 @@
-**Trajectory-Visualization**
+Trajectory-Visualization
 
 A ROS 2 C++ package for reading, processing, and saving robot trajectory data for visualization and motion analysis.
+📌 Features
 
- **Features**
+    ✅ Read trajectory data from CSV files (trajectory_reader.cpp)
 
-     Read trajectory data from CSV files (trajectory_reader.cpp)
+    ✅ Save trajectory data from odometry topics to CSV files (trajectory_saver.cpp)
 
-     Save trajectory data from odometry topics to CSV files (trajectory_saver.cpp)
-
-**Project Structure**
+📁 Project Structure
 
 trajectory_tools/
 ├── build/
@@ -25,7 +24,7 @@ trajectory_tools/
 │   ├── trajectory_saver.cpp
 └── srv/
 
-**Usage**
+🚀 Usage
 Reading a trajectory file
 
 Run the trajectory reader node with a custom CSV file path:
@@ -44,7 +43,7 @@ ros2 run trajectory_tools trajectory_saver_node \
 
     Replace /path/to/save/trajectory.csv with the desired file output path.
 
-**Example**
+✅ Example
 
 ros2 run trajectory_tools trajectory_saver_node \
   --ros-args -p odom_topic:=/odom \
@@ -53,12 +52,12 @@ ros2 run trajectory_tools trajectory_saver_node \
 ros2 run trajectory_tools trajectory_reader_node \
   --ros-args -p trajectory_file:=/home/dd/trajectory_tools/data/trajectory.csv
 
-**Notes**
+⚠️ Notes
 
     Ensure your trajectory files are properly formatted CSVs.
 
     You can extend the reader/saver logic to support other formats or add filtering, interpolation, etc.
 
-** Author**
+👤 Author
 
 Darshi18
